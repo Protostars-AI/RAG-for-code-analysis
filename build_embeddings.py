@@ -13,8 +13,8 @@ embeddings = OpenAIEmbeddings(openai_api_key="")
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 
-##name = "langchain"
-##GITHUB_PATH = "/home/raghavan/langchain"
+##name = "Authentication"
+##GITHUB_PATH = "/home/raoneg/Bumblebee-AI/Protostars-Code-Compliance/CodeBaseBuddy/auth_test/src"
 
 ##name = "open_interpreter"
 ##GITHUB_PATH = "/home/raghavan/open-interpreter"
