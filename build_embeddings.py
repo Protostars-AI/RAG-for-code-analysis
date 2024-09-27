@@ -1,22 +1,14 @@
 import os
 from dotenv import load_dotenv
 from langchain_openai import OpenAIEmbeddings
-#import langchain
 from annoy import AnnoyIndex
-#from langchain_community.chat_models import ChatOpenAI
-#from langchain_community.llms import OpenAI
-#from langchain.prompts import PromptTemplate
-#from langchain.chains import LLMChain
 from sentence_transformers import SentenceTransformer #, util
-import sys
 
 # Load environment variables
 load_dotenv()
 
 embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
-
-#name = sys.argv[1]  # this should be repo name or id
 
 def get_file_embeddings(file_name, file_content):
     try:
@@ -66,7 +58,3 @@ def build_embeddings(repo_files, name):
     with open('index_map' + name + '.txt', 'w') as f:
         for idx, path in index_map.items():
             f.write(f'{idx}\t{path}\n')
-
-
-    # print("Indices created :" + name1 + " , " + name2)
-    # print("Number of files indexed: " + str(len(files)))

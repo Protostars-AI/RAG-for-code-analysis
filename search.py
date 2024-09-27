@@ -1,4 +1,3 @@
-import sys
 from interpreter import interpreter
 import os
 import math
@@ -12,8 +11,6 @@ load_dotenv()
 
 embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
-#query = sys.argv[1]
-#name = sys.argv[2]
 
 EMBEDDING_DIM = 1536
 # Get query embeddings
@@ -87,21 +84,3 @@ def get_unique_files(results_ada, results_specter):
     unique_model = unique_ada + unique_specter
     
     return unique_model
-
-
-# depth = get_total_files(name)
-# results_ada = query_top_files(query, depth)
-# results_specter = query_top_files_specter(query, depth)
-# results = results_ada + results_specter
-
-# common_files_with_avg_score = get_common_files_with_avg_score(results_ada, results_specter)
-# unique_model = get_unique_files(results_ada, results_specter)
-
-# # Create a dictionary with two keys: 'common_files' and 'only_one_model'
-# # Store the file names and scores in the respective keys
-# result_dict = {
-#     'common_files': common_files_with_avg_score,
-#     'only_one_model': unique_model
-# }
-
-#print(result_dict)

@@ -4,10 +4,9 @@ Get repo data from the endpoint
 import os
 import json
 import base64
-import requests
 import pandas as pd
 from dotenv import load_dotenv
-from celery import Celery, shared_task
+from celery import Celery
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from sentence_transformers import SentenceTransformer
