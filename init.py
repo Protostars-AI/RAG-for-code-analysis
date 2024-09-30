@@ -111,3 +111,7 @@ def get_results(task_id):
             'status': str(task.info)  # this is the exception raised
         }
     return jsonify(response)
+
+
+if __name__== "__main__":
+    app.run(debug=True)
