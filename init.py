@@ -83,7 +83,7 @@ def background_code_matching(self, repo_files, repo_id):
     return section_result
 
 # Flask routes
-@app.route('/initiate', methods=['POST'])
+@app.route('/initiate_rag', methods=['POST'])
 def initiate():
     data = request.json
     repo = data['repository_tree']
@@ -92,7 +92,7 @@ def initiate():
     job = background_code_matching.apply_async(args=(repo_files,repo_id))
     return jsonify({'job_id': job.id}), 202
 
-@app.route('/results/<task_id>', methods=['GET'])
+@app.route('/results_rag/<task_id>', methods=['GET'])
 def get_results(task_id):
     task = background_code_matching.AsyncResult(task_id)
     if task.state == 'PENDING':
@@ -111,6 +111,3 @@ def get_results(task_id):
             'status': str(task.info)  # this is the exception raised
         }
     return jsonify(response)
-
-if __name__ == '__main__':
-    app.run(debug=True)
