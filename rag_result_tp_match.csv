@@ -96,47 +96,47 @@ Application Integrity,Secure Software Development Lifecycle.php,0.78325834874516
 Application Integrity,Fundamental Session Management Security.php,0.7826977534461859,0,1,0,0
 Application Integrity,Service Authentication.php,0.7814970181817691,0,1,0,0
 Application Integrity,Unintended Security Disclosure.php,0.7810610354520943,0,1,0,0
-Application Integrity,Application Integrity.php,0.7806965273225309,1,0,0,0
-Application Integrity,Communications Architecture.php,0.7795736041103936,0,0,1,0
-Application Integrity,Input Validation.php,0.7792988718228007,0,0,1,0
-Application Integrity,Algorithms.php,0.7783190927148949,0,0,1,0
-Application Integrity,HTTP Security Headers.php,0.7780606329420577,0,0,1,0
-Application Integrity,Cryptographic Verifier.php,0.7768725112495962,0,0,1,0
-Application Integrity,SSRF Protection.php,0.7763705274235886,0,0,1,0
-Application Integrity,Authenticator Lifecycle.php,0.775863957461638,0,0,1,0
-Application Integrity,Malicious Software Architecture.php,0.7725858300420911,0,0,1,0
-Application Integrity,Sanitization and Sandboxing.php,0.7709471375037098,0,0,1,0
-Application Integrity,File Storage.php,0.7703713690063771,0,0,1,0
-Application Integrity,Log Protection.php,0.7689998258002495,0,0,1,0
-Application Integrity,Data Classification.php,0.768760236797601,0,0,1,0
-Application Integrity,Log Content.php,0.768131809488227,0,0,1,0
-Application Integrity,Federated Re-authentication.php,0.7674696067871114,0,0,1,0
-Application Integrity,Token-based Session Management.php,0.7670382246488228,0,0,1,0
-Application Integrity,"Memory, String, and Unmanaged Code.php",0.7662986843229911,0,0,1,0
-Application Integrity,File Download.php,0.7638179007981085,0,0,1,0
-Application Integrity,Log Processing.php,0.7636500626736229,0,0,1,0
-Application Integrity,Out of Band Verifier.php,0.7634553198695255,0,0,1,0
-Application Integrity,Session Termination.php,0.7631916993479844,0,0,1,0
-Application Integrity,Secret Management.php,0.761323609671577,0,0,1,0
-Application Integrity,Malicious Code Search.php,0.7611220245627804,0,0,1,0
-Application Integrity,Credential Recovery.php,0.7610608280953071,0,0,1,0
-Application Integrity,Code Integrity.php,0.7610494918915294,0,0,1,0
-Application Integrity,Other Access Control Considerations.php,0.7607853830256971,0,0,1,0
-Application Integrity,File Integrity.php,0.7607142283186441,0,0,1,0
-Application Integrity,Authentication Architecture.php,0.7587396709535447,0,0,1,0
-Application Integrity,Password Security.php,0.7587057544799257,0,0,1,0
-Application Integrity,"Errors, Logging and Auditing Architecture.php",0.7569665185542738,0,0,1,0
-Application Integrity,GraphQL.php,0.7565810999238982,0,0,1,0
-Application Integrity,Client Communication Security.php,0.7549337509847589,0,0,1,0
-Application Integrity,Data Protection and Privacy Architecture.php,0.752355006527741,0,0,1,0
-Application Integrity,General Authenticator Security.php,0.7514769394995766,0,0,1,0
-Application Integrity,Business Logic Security.php,0.7495158850490145,0,0,1,0
-Application Integrity,Look-up Secret Verifier.php,0.7441497822521208,0,0,1,0
-Application Integrity,Error Handling.php,0.7432539982822892,0,0,1,0
-Application Integrity,Credential Storage.php,0.7374963242164021,0,0,1,0
-Application Integrity,Random Values.php,0.73433640695595,0,0,1,0
-Application Integrity,One Time Verifier.php,0.7328047128140092,0,0,1,0
-Application Integrity,File Upload.php,0.7300887412562667,0,0,1,0
+Application Integrity,Application Integrity.php,0.7806965273225309,0,0,0,1
+Application Integrity,Communications Architecture.php,0.7795736041103936,0,1,0,0
+Application Integrity,Input Validation.php,0.7792988718228007,0,1,0,0
+Application Integrity,Algorithms.php,0.7783190927148949,0,1,0,0
+Application Integrity,HTTP Security Headers.php,0.7780606329420577,0,1,0,0
+Application Integrity,Cryptographic Verifier.php,0.7768725112495962,0,1,0,0
+Application Integrity,SSRF Protection.php,0.7763705274235886,0,1,0,0
+Application Integrity,Authenticator Lifecycle.php,0.775863957461638,0,1,0,0
+Application Integrity,Malicious Software Architecture.php,0.7725858300420911,0,1,0,0
+Application Integrity,Sanitization and Sandboxing.php,0.7709471375037098,0,1,0,0
+Application Integrity,File Storage.php,0.7703713690063771,0,1,0,0
+Application Integrity,Log Protection.php,0.7689998258002495,0,1,0,0
+Application Integrity,Data Classification.php,0.768760236797601,0,1,0,0
+Application Integrity,Log Content.php,0.768131809488227,0,1,0,0
+Application Integrity,Federated Re-authentication.php,0.7674696067871114,0,1,0,0
+Application Integrity,Token-based Session Management.php,0.7670382246488228,0,1,0,0
+Application Integrity,"Memory, String, and Unmanaged Code.php",0.7662986843229911,0,1,0,0
+Application Integrity,File Download.php,0.7638179007981085,0,1,0,0
+Application Integrity,Log Processing.php,0.7636500626736229,0,1,0,0
+Application Integrity,Out of Band Verifier.php,0.7634553198695255,0,1,0,0
+Application Integrity,Session Termination.php,0.7631916993479844,0,1,0,0
+Application Integrity,Secret Management.php,0.761323609671577,0,1,0,0
+Application Integrity,Malicious Code Search.php,0.7611220245627804,0,1,0,0
+Application Integrity,Credential Recovery.php,0.7610608280953071,0,1,0,0
+Application Integrity,Code Integrity.php,0.7610494918915294,0,1,0,0
+Application Integrity,Other Access Control Considerations.php,0.7607853830256971,0,1,0,0
+Application Integrity,File Integrity.php,0.7607142283186441,0,1,0,0
+Application Integrity,Authentication Architecture.php,0.7587396709535447,0,1,0,0
+Application Integrity,Password Security.php,0.7587057544799257,0,1,0,0
+Application Integrity,"Errors, Logging and Auditing Architecture.php",0.7569665185542738,0,1,0,0
+Application Integrity,GraphQL.php,0.7565810999238982,0,1,0,0
+Application Integrity,Client Communication Security.php,0.7549337509847589,0,1,0,0
+Application Integrity,Data Protection and Privacy Architecture.php,0.752355006527741,0,1,0,0
+Application Integrity,General Authenticator Security.php,0.7514769394995766,0,1,0,0
+Application Integrity,Business Logic Security.php,0.7495158850490145,0,1,0,0
+Application Integrity,Look-up Secret Verifier.php,0.7441497822521208,0,1,0,0
+Application Integrity,Error Handling.php,0.7432539982822892,0,1,0,0
+Application Integrity,Credential Storage.php,0.7374963242164021,0,1,0,0
+Application Integrity,Random Values.php,0.73433640695595,0,1,0,0
+Application Integrity,One Time Verifier.php,0.7328047128140092,0,1,0,0
+Application Integrity,File Upload.php,0.7300887412562667,0,1,0,0
 Authenticator Lifecycle,Authenticator Lifecycle.php,0.8502923407788654,1,0,0,0
 Authenticator Lifecycle,Out of Band Verifier.php,0.817807222647622,0,0,1,0
 Authenticator Lifecycle,Credential Recovery.php,0.8061392499593836,0,0,1,0
@@ -422,66 +422,66 @@ Client-side Data Protection,Operation Level Access Control Operation Level Acces
 Client-side Data Protection,Cookie-based Session Management.php,0.7983346743698574,0,1,0,0
 Client-side Data Protection,Generic Web Service Security.php,0.7951165704063293,0,1,0,0
 Client-side Data Protection,General Access Control Design.php,0.7929528217677085,0,1,0,0
-Client-side Data Protection,Client-side Data Protection.php,0.7883641131090472,1,0,0,0
-Client-side Data Protection,Log Content.php,0.7785817744766311,0,0,1,0
-Client-side Data Protection,RESTful Web Service.php,0.7783305944328299,0,0,1,0
-Client-side Data Protection,HTTP Request Header Validation.php,0.7778523805701939,0,0,1,0
-Client-side Data Protection,Output Encoding and Injection Prevention.php,0.7714158869304544,0,0,1,0
-Client-side Data Protection,Session Termination.php,0.770508505313108,0,0,1,0
-Client-side Data Protection,Federated Re-authentication.php,0.7671675759130414,0,0,1,0
-Client-side Data Protection,Deserialization Prevention.php,0.7658202104131551,0,0,1,0
-Client-side Data Protection,Log Processing.php,0.7639977777035217,0,0,1,0
-Client-side Data Protection,Other Access Control Considerations.php,0.7625825853110388,0,0,1,0
-Client-side Data Protection,Service Authentication.php,0.7590188538696716,0,0,1,0
-Client-side Data Protection,Access Control Architecture.php,0.7585749648341263,0,0,1,0
-Client-side Data Protection,Communications Architecture.php,0.7566632614672796,0,0,1,0
-Client-side Data Protection,Sanitization and Sandboxing.php,0.7562185247342008,0,0,1,0
-Client-side Data Protection,Application Integrity.php,0.7556979949086624,0,0,1,0
-Client-side Data Protection,Input and Output Architecture.php,0.7553988826279385,0,0,1,0
-Client-side Data Protection,Cryptographic Verifier.php,0.7547157454795126,0,0,1,0
-Client-side Data Protection,Configuration Architecture.php,0.7520924947411678,0,0,1,0
-Client-side Data Protection,Server Communication Security.php,0.7504192195113532,0,0,1,0
-Client-side Data Protection,Build and Deploy.php,0.7500190723375302,0,0,1,0
-Client-side Data Protection,Secure File Upload Architecture.php,0.7494152683157993,0,0,1,0
-Client-side Data Protection,Input Validation.php,0.7485136637180905,0,0,1,0
-Client-side Data Protection,Algorithms.php,0.74844888191357,0,0,1,0
-Client-side Data Protection,"Memory, String, and Unmanaged Code.php",0.7477127525826082,0,0,1,0
-Client-side Data Protection,Token-based Session Management.php,0.7467062297207321,0,0,1,0
-Client-side Data Protection,Data Protection and Privacy Architecture.php,0.7457835041475449,0,0,1,0
-Client-side Data Protection,File Storage.php,0.7420168527191888,0,0,1,0
-Client-side Data Protection,Look-up Secret Verifier.php,0.7400788429771523,0,0,1,0
-Client-side Data Protection,Data Classification.php,0.7396540032384293,0,0,1,0
-Client-side Data Protection,Log Protection.php,0.7390092857156985,0,0,1,0
-Client-side Data Protection,Unintended Security Disclosure.php,0.7388237139204494,0,0,1,0
-Client-side Data Protection,Out of Band Verifier.php,0.7365150942065827,0,0,1,0
-Client-side Data Protection,SSRF Protection.php,0.7359599534980072,0,0,1,0
-Client-side Data Protection,HTTP Security Headers.php,0.7350911328529904,0,0,1,0
-Client-side Data Protection,General Authenticator Security.php,0.7348416043178929,0,0,1,0
-Client-side Data Protection,GraphQL.php,0.7347690804742046,0,0,1,0
-Client-side Data Protection,SOAP Web Service.php,0.7344941452883844,0,0,1,0
-Client-side Data Protection,File Execution.php,0.7344725303403579,0,0,1,0
-Client-side Data Protection,Authenticator Lifecycle.php,0.7335173842675942,0,0,1,0
-Client-side Data Protection,Credential Storage.php,0.730997538198787,0,0,1,0
-Client-side Data Protection,"Errors, Logging and Auditing Architecture.php",0.7299634214400654,0,0,1,0
-Client-side Data Protection,Client Communication Security.php,0.729883640913257,0,0,1,0
-Client-side Data Protection,Cryptographic Architecture.php,0.7285731532267216,0,0,1,0
-Client-side Data Protection,Password Security.php,0.7279361700161164,0,0,1,0
-Client-side Data Protection,Authentication Architecture.php,0.7277461436220003,0,0,1,0
-Client-side Data Protection,Secret Management.php,0.7266566945068408,0,0,1,0
-Client-side Data Protection,Secure Software Development Lifecycle.php,0.7266264993355662,0,0,1,0
-Client-side Data Protection,File Integrity.php,0.7249230336707955,0,0,1,0
-Client-side Data Protection,File Download.php,0.7236116926279328,0,0,1,0
-Client-side Data Protection,Credential Recovery.php,0.7223857503848202,0,0,1,0
-Client-side Data Protection,Business Logic Architecture.php,0.7211267542836681,0,0,1,0
-Client-side Data Protection,Malicious Code Search.php,0.7210031300033443,0,0,1,0
-Client-side Data Protection,Dependency.php,0.7205242054037125,0,0,1,0
-Client-side Data Protection,Business Logic Security.php,0.7046474796602272,0,0,1,0
-Client-side Data Protection,Malicious Software Architecture.php,0.7035069673334227,0,0,1,0
-Client-side Data Protection,Error Handling.php,0.7022114933988988,0,0,1,0
-Client-side Data Protection,Random Values.php,0.6999599070248681,0,0,1,0
-Client-side Data Protection,Code Integrity.php,0.6932412646188357,0,0,1,0
-Client-side Data Protection,One Time Verifier.php,0.6901715804884596,0,0,1,0
-Client-side Data Protection,File Upload.php,0.6808228081625949,0,0,1,0
+Client-side Data Protection,Client-side Data Protection.php,0.7883641131090472,0,0,0,1
+Client-side Data Protection,Log Content.php,0.7785817744766311,0,1,0,0
+Client-side Data Protection,RESTful Web Service.php,0.7783305944328299,0,1,0,0
+Client-side Data Protection,HTTP Request Header Validation.php,0.7778523805701939,0,1,0,0
+Client-side Data Protection,Output Encoding and Injection Prevention.php,0.7714158869304544,0,1,0,0
+Client-side Data Protection,Session Termination.php,0.770508505313108,0,1,0,0
+Client-side Data Protection,Federated Re-authentication.php,0.7671675759130414,0,1,0,0
+Client-side Data Protection,Deserialization Prevention.php,0.7658202104131551,0,1,0,0
+Client-side Data Protection,Log Processing.php,0.7639977777035217,0,1,0,0
+Client-side Data Protection,Other Access Control Considerations.php,0.7625825853110388,0,1,0,0
+Client-side Data Protection,Service Authentication.php,0.7590188538696716,0,1,0,0
+Client-side Data Protection,Access Control Architecture.php,0.7585749648341263,0,1,0,0
+Client-side Data Protection,Communications Architecture.php,0.7566632614672796,0,1,0,0
+Client-side Data Protection,Sanitization and Sandboxing.php,0.7562185247342008,0,1,0,0
+Client-side Data Protection,Application Integrity.php,0.7556979949086624,0,1,0,0
+Client-side Data Protection,Input and Output Architecture.php,0.7553988826279385,0,1,0,0
+Client-side Data Protection,Cryptographic Verifier.php,0.7547157454795126,0,1,0,0
+Client-side Data Protection,Configuration Architecture.php,0.7520924947411678,0,1,0,0
+Client-side Data Protection,Server Communication Security.php,0.7504192195113532,0,1,0,0
+Client-side Data Protection,Build and Deploy.php,0.7500190723375302,0,1,0,0
+Client-side Data Protection,Secure File Upload Architecture.php,0.7494152683157993,0,1,0,0
+Client-side Data Protection,Input Validation.php,0.7485136637180905,0,1,0,0
+Client-side Data Protection,Algorithms.php,0.74844888191357,0,1,0,0
+Client-side Data Protection,"Memory, String, and Unmanaged Code.php",0.7477127525826082,0,1,0,0
+Client-side Data Protection,Token-based Session Management.php,0.7467062297207321,0,1,0,0
+Client-side Data Protection,Data Protection and Privacy Architecture.php,0.7457835041475449,0,1,0,0
+Client-side Data Protection,File Storage.php,0.7420168527191888,0,1,0,0
+Client-side Data Protection,Look-up Secret Verifier.php,0.7400788429771523,0,1,0,0
+Client-side Data Protection,Data Classification.php,0.7396540032384293,0,1,0,0
+Client-side Data Protection,Log Protection.php,0.7390092857156985,0,1,0,0
+Client-side Data Protection,Unintended Security Disclosure.php,0.7388237139204494,0,1,0,0
+Client-side Data Protection,Out of Band Verifier.php,0.7365150942065827,0,1,0,0
+Client-side Data Protection,SSRF Protection.php,0.7359599534980072,0,1,0,0
+Client-side Data Protection,HTTP Security Headers.php,0.7350911328529904,0,1,0,0
+Client-side Data Protection,General Authenticator Security.php,0.7348416043178929,0,1,0,0
+Client-side Data Protection,GraphQL.php,0.7347690804742046,0,1,0,0
+Client-side Data Protection,SOAP Web Service.php,0.7344941452883844,0,1,0,0
+Client-side Data Protection,File Execution.php,0.7344725303403579,0,1,0,0
+Client-side Data Protection,Authenticator Lifecycle.php,0.7335173842675942,0,1,0,0
+Client-side Data Protection,Credential Storage.php,0.730997538198787,0,1,0,0
+Client-side Data Protection,"Errors, Logging and Auditing Architecture.php",0.7299634214400654,0,1,0,0
+Client-side Data Protection,Client Communication Security.php,0.729883640913257,0,1,0,0
+Client-side Data Protection,Cryptographic Architecture.php,0.7285731532267216,0,1,0,0
+Client-side Data Protection,Password Security.php,0.7279361700161164,0,1,0,0
+Client-side Data Protection,Authentication Architecture.php,0.7277461436220003,0,1,0,0
+Client-side Data Protection,Secret Management.php,0.7266566945068408,0,1,0,0
+Client-side Data Protection,Secure Software Development Lifecycle.php,0.7266264993355662,0,1,0,0
+Client-side Data Protection,File Integrity.php,0.7249230336707955,0,1,0,0
+Client-side Data Protection,File Download.php,0.7236116926279328,0,1,0,0
+Client-side Data Protection,Credential Recovery.php,0.7223857503848202,0,1,0,0
+Client-side Data Protection,Business Logic Architecture.php,0.7211267542836681,0,1,0,0
+Client-side Data Protection,Malicious Code Search.php,0.7210031300033443,0,1,0,0
+Client-side Data Protection,Dependency.php,0.7205242054037125,0,1,0,0
+Client-side Data Protection,Business Logic Security.php,0.7046474796602272,0,1,0,0
+Client-side Data Protection,Malicious Software Architecture.php,0.7035069673334227,0,1,0,0
+Client-side Data Protection,Error Handling.php,0.7022114933988988,0,1,0,0
+Client-side Data Protection,Random Values.php,0.6999599070248681,0,1,0,0
+Client-side Data Protection,Code Integrity.php,0.6932412646188357,0,1,0,0
+Client-side Data Protection,One Time Verifier.php,0.6901715804884596,0,1,0,0
+Client-side Data Protection,File Upload.php,0.6808228081625949,0,1,0,0
 Code Integrity,Code Integrity.php,0.8227117839134876,1,0,0,0
 Code Integrity,Build and Deploy.php,0.7976266631292134,0,0,1,0
 Code Integrity,Access Control Architecture.php,0.7895841649816622,0,0,1,0
@@ -554,72 +554,72 @@ Code Integrity,Credential Storage.php,0.7077354127062669,0,0,1,0
 Cookie-based Session Management,Session Binding.php,0.8434658843803661,0,1,0,0
 Cookie-based Session Management,Fundamental Session Management Security.php,0.8393784735885841,0,1,0,0
 Cookie-based Session Management,Defenses Against Session Management Exploits.php,0.8269669316208768,0,1,0,0
-Cookie-based Session Management,Cookie-based Session Management.php,0.8238440614947862,1,0,0,0
-Cookie-based Session Management,Operation Level Access Control Operation Level Access Control.php,0.8143563704937984,0,0,1,0
-Cookie-based Session Management,Sensitive Private Data.php,0.8137315175055364,0,0,1,0
-Cookie-based Session Management,Generic Web Service Security.php,0.806698859276626,0,0,1,0
-Cookie-based Session Management,Communications Architecture.php,0.8009592607226532,0,0,1,0
-Cookie-based Session Management,Server Communication Security.php,0.7994048152459936,0,0,1,0
-Cookie-based Session Management,Log Content.php,0.7955919332047479,0,0,1,0
-Cookie-based Session Management,HTTP Request Header Validation.php,0.7946960456247827,0,0,1,0
-Cookie-based Session Management,Token-based Session Management.php,0.7941814759765551,0,0,1,0
-Cookie-based Session Management,Session Termination.php,0.7919641842609642,0,0,1,0
-Cookie-based Session Management,RESTful Web Service.php,0.7888882063460654,0,0,1,0
-Cookie-based Session Management,General Access Control Design.php,0.7862971120803648,0,0,1,0
-Cookie-based Session Management,Configuration Architecture.php,0.7818777520252478,0,0,1,0
-Cookie-based Session Management,Client Communication Security.php,0.7798315642797589,0,0,1,0
-Cookie-based Session Management,Cryptographic Verifier.php,0.7786436299148445,0,0,1,0
-Cookie-based Session Management,General Data Protection.php,0.7781449891277608,0,0,1,0
-Cookie-based Session Management,Log Processing.php,0.7732643327471159,0,0,1,0
-Cookie-based Session Management,Federated Re-authentication.php,0.7728680397847818,0,0,1,0
-Cookie-based Session Management,Service Authentication.php,0.7668488245137929,0,0,1,0
-Cookie-based Session Management,Other Access Control Considerations.php,0.7611558142923793,0,0,1,0
-Cookie-based Session Management,Deserialization Prevention.php,0.7607528974085809,0,0,1,0
-Cookie-based Session Management,Out of Band Verifier.php,0.7578321741441283,0,0,1,0
-Cookie-based Session Management,SSRF Protection.php,0.7567585263180368,0,0,1,0
-Cookie-based Session Management,Cryptographic Architecture.php,0.755836062691376,0,0,1,0
-Cookie-based Session Management,Secure File Upload Architecture.php,0.7553235582243043,0,0,1,0
-Cookie-based Session Management,Credential Recovery.php,0.7547761202509717,0,0,1,0
-Cookie-based Session Management,Algorithms.php,0.7542817721013759,0,0,1,0
-Cookie-based Session Management,Client-side Data Protection.php,0.7524106500000771,0,0,1,0
-Cookie-based Session Management,Credential Storage.php,0.7506297805519022,0,0,1,0
-Cookie-based Session Management,Input Validation.php,0.7503226742437819,0,0,1,0
-Cookie-based Session Management,General Authenticator Security.php,0.7499727554985489,0,0,1,0
-Cookie-based Session Management,Input and Output Architecture.php,0.7486235820385199,0,0,1,0
-Cookie-based Session Management,Output Encoding and Injection Prevention.php,0.7485763745677712,0,0,1,0
-Cookie-based Session Management,GraphQL.php,0.7483363259726352,0,0,1,0
-Cookie-based Session Management,Log Protection.php,0.7472382692690052,0,0,1,0
-Cookie-based Session Management,"Errors, Logging and Auditing Architecture.php",0.746951897654176,0,0,1,0
-Cookie-based Session Management,SOAP Web Service.php,0.7463862788031036,0,0,1,0
-Cookie-based Session Management,Access Control Architecture.php,0.7463422890147917,0,0,1,0
-Cookie-based Session Management,Build and Deploy.php,0.7442090416981892,0,0,1,0
-Cookie-based Session Management,Look-up Secret Verifier.php,0.7428789754584543,0,0,1,0
-Cookie-based Session Management,Authenticator Lifecycle.php,0.7407330003354641,0,0,1,0
-Cookie-based Session Management,Application Integrity.php,0.7405343542160867,0,0,1,0
-Cookie-based Session Management,Password Security.php,0.7358341634929902,0,0,1,0
-Cookie-based Session Management,Malicious Code Search.php,0.7357796079796568,0,0,1,0
-Cookie-based Session Management,File Execution.php,0.7340889276326268,0,0,1,0
-Cookie-based Session Management,Authentication Architecture.php,0.7336881419185068,0,0,1,0
-Cookie-based Session Management,Sanitization and Sandboxing.php,0.7320900911055497,0,0,1,0
-Cookie-based Session Management,HTTP Security Headers.php,0.7318721528320656,0,0,1,0
-Cookie-based Session Management,Unintended Security Disclosure.php,0.7297421847227503,0,0,1,0
-Cookie-based Session Management,File Storage.php,0.7288916061951329,0,0,1,0
-Cookie-based Session Management,Business Logic Architecture.php,0.7281677782410064,0,0,1,0
-Cookie-based Session Management,Data Classification.php,0.7281181722940444,0,0,1,0
-Cookie-based Session Management,Secret Management.php,0.7279351002853411,0,0,1,0
-Cookie-based Session Management,File Download.php,0.7274072475813225,0,0,1,0
-Cookie-based Session Management,"Memory, String, and Unmanaged Code.php",0.725135042959179,0,0,1,0
-Cookie-based Session Management,Dependency.php,0.7228904251398257,0,0,1,0
-Cookie-based Session Management,Data Protection and Privacy Architecture.php,0.722275504875874,0,0,1,0
-Cookie-based Session Management,One Time Verifier.php,0.7207933213207292,0,0,1,0
-Cookie-based Session Management,File Integrity.php,0.7201937736396549,0,0,1,0
-Cookie-based Session Management,Malicious Software Architecture.php,0.7197515339278302,0,0,1,0
-Cookie-based Session Management,Secure Software Development Lifecycle.php,0.7192629400133328,0,0,1,0
-Cookie-based Session Management,Random Values.php,0.7187089534419258,0,0,1,0
-Cookie-based Session Management,Business Logic Security.php,0.6999800022631462,0,0,1,0
-Cookie-based Session Management,Error Handling.php,0.691691133663002,0,0,1,0
-Cookie-based Session Management,File Upload.php,0.6736558733084632,0,0,1,0
-Cookie-based Session Management,Code Integrity.php,0.6726280940806448,0,0,1,0
+Cookie-based Session Management,Cookie-based Session Management.php,0.8238440614947862,0,0,0,1
+Cookie-based Session Management,Operation Level Access Control Operation Level Access Control.php,0.8143563704937984,0,1,0,0
+Cookie-based Session Management,Sensitive Private Data.php,0.8137315175055364,0,1,0,0
+Cookie-based Session Management,Generic Web Service Security.php,0.806698859276626,0,1,0,0
+Cookie-based Session Management,Communications Architecture.php,0.8009592607226532,0,1,0,0
+Cookie-based Session Management,Server Communication Security.php,0.7994048152459936,0,1,0,0
+Cookie-based Session Management,Log Content.php,0.7955919332047479,0,1,0,0
+Cookie-based Session Management,HTTP Request Header Validation.php,0.7946960456247827,0,1,0,0
+Cookie-based Session Management,Token-based Session Management.php,0.7941814759765551,0,1,0,0
+Cookie-based Session Management,Session Termination.php,0.7919641842609642,0,1,0,0
+Cookie-based Session Management,RESTful Web Service.php,0.7888882063460654,0,1,0,0
+Cookie-based Session Management,General Access Control Design.php,0.7862971120803648,0,1,0,0
+Cookie-based Session Management,Configuration Architecture.php,0.7818777520252478,0,1,0,0
+Cookie-based Session Management,Client Communication Security.php,0.7798315642797589,0,1,0,0
+Cookie-based Session Management,Cryptographic Verifier.php,0.7786436299148445,0,1,0,0
+Cookie-based Session Management,General Data Protection.php,0.7781449891277608,0,1,0,0
+Cookie-based Session Management,Log Processing.php,0.7732643327471159,0,1,0,0
+Cookie-based Session Management,Federated Re-authentication.php,0.7728680397847818,0,1,0,0
+Cookie-based Session Management,Service Authentication.php,0.7668488245137929,0,1,0,0
+Cookie-based Session Management,Other Access Control Considerations.php,0.7611558142923793,0,1,0,0
+Cookie-based Session Management,Deserialization Prevention.php,0.7607528974085809,0,1,0,0
+Cookie-based Session Management,Out of Band Verifier.php,0.7578321741441283,0,1,0,0
+Cookie-based Session Management,SSRF Protection.php,0.7567585263180368,0,1,0,0
+Cookie-based Session Management,Cryptographic Architecture.php,0.755836062691376,0,1,0,0
+Cookie-based Session Management,Secure File Upload Architecture.php,0.7553235582243043,0,1,0,0
+Cookie-based Session Management,Credential Recovery.php,0.7547761202509717,0,1,0,0
+Cookie-based Session Management,Algorithms.php,0.7542817721013759,0,1,0,0
+Cookie-based Session Management,Client-side Data Protection.php,0.7524106500000771,0,1,0,0
+Cookie-based Session Management,Credential Storage.php,0.7506297805519022,0,1,0,0
+Cookie-based Session Management,Input Validation.php,0.7503226742437819,0,1,0,0
+Cookie-based Session Management,General Authenticator Security.php,0.7499727554985489,0,1,0,0
+Cookie-based Session Management,Input and Output Architecture.php,0.7486235820385199,0,1,0,0
+Cookie-based Session Management,Output Encoding and Injection Prevention.php,0.7485763745677712,0,1,0,0
+Cookie-based Session Management,GraphQL.php,0.7483363259726352,0,1,0,0
+Cookie-based Session Management,Log Protection.php,0.7472382692690052,0,1,0,0
+Cookie-based Session Management,"Errors, Logging and Auditing Architecture.php",0.746951897654176,0,1,0,0
+Cookie-based Session Management,SOAP Web Service.php,0.7463862788031036,0,1,0,0
+Cookie-based Session Management,Access Control Architecture.php,0.7463422890147917,0,1,0,0
+Cookie-based Session Management,Build and Deploy.php,0.7442090416981892,0,1,0,0
+Cookie-based Session Management,Look-up Secret Verifier.php,0.7428789754584543,0,1,0,0
+Cookie-based Session Management,Authenticator Lifecycle.php,0.7407330003354641,0,1,0,0
+Cookie-based Session Management,Application Integrity.php,0.7405343542160867,0,1,0,0
+Cookie-based Session Management,Password Security.php,0.7358341634929902,0,1,0,0
+Cookie-based Session Management,Malicious Code Search.php,0.7357796079796568,0,1,0,0
+Cookie-based Session Management,File Execution.php,0.7340889276326268,0,1,0,0
+Cookie-based Session Management,Authentication Architecture.php,0.7336881419185068,0,1,0,0
+Cookie-based Session Management,Sanitization and Sandboxing.php,0.7320900911055497,0,1,0,0
+Cookie-based Session Management,HTTP Security Headers.php,0.7318721528320656,0,1,0,0
+Cookie-based Session Management,Unintended Security Disclosure.php,0.7297421847227503,0,1,0,0
+Cookie-based Session Management,File Storage.php,0.7288916061951329,0,1,0,0
+Cookie-based Session Management,Business Logic Architecture.php,0.7281677782410064,0,1,0,0
+Cookie-based Session Management,Data Classification.php,0.7281181722940444,0,1,0,0
+Cookie-based Session Management,Secret Management.php,0.7279351002853411,0,1,0,0
+Cookie-based Session Management,File Download.php,0.7274072475813225,0,1,0,0
+Cookie-based Session Management,"Memory, String, and Unmanaged Code.php",0.725135042959179,0,1,0,0
+Cookie-based Session Management,Dependency.php,0.7228904251398257,0,1,0,0
+Cookie-based Session Management,Data Protection and Privacy Architecture.php,0.722275504875874,0,1,0,0
+Cookie-based Session Management,One Time Verifier.php,0.7207933213207292,0,1,0,0
+Cookie-based Session Management,File Integrity.php,0.7201937736396549,0,1,0,0
+Cookie-based Session Management,Malicious Software Architecture.php,0.7197515339278302,0,1,0,0
+Cookie-based Session Management,Secure Software Development Lifecycle.php,0.7192629400133328,0,1,0,0
+Cookie-based Session Management,Random Values.php,0.7187089534419258,0,1,0,0
+Cookie-based Session Management,Business Logic Security.php,0.6999800022631462,0,1,0,0
+Cookie-based Session Management,Error Handling.php,0.691691133663002,0,1,0,0
+Cookie-based Session Management,File Upload.php,0.6736558733084632,0,1,0,0
+Cookie-based Session Management,Code Integrity.php,0.6726280940806448,0,1,0,0
 Credential Recovery,Credential Recovery.php,0.8172093078669918,1,0,0,0
 Credential Recovery,Authenticator Lifecycle.php,0.80587732712736,0,0,1,0
 Credential Recovery,Out of Band Verifier.php,0.7912051279638799,0,0,1,0
@@ -903,68 +903,68 @@ Defenses Against Session Management Exploits,Log Content.php,0.8051236558811496,
 Defenses Against Session Management Exploits,General Authenticator Security.php,0.7967288305384623,0,1,0,0
 Defenses Against Session Management Exploits,Operation Level Access Control Operation Level Access Control.php,0.7966936651597445,0,1,0,0
 Defenses Against Session Management Exploits,Other Access Control Considerations.php,0.7957831191909723,0,1,0,0
-Defenses Against Session Management Exploits,Defenses Against Session Management Exploits.php,0.791788963510107,1,0,0,0
-Defenses Against Session Management Exploits,Session Binding.php,0.7906872142614003,0,0,1,0
-Defenses Against Session Management Exploits,Business Logic Security.php,0.7875257144090548,0,0,1,0
-Defenses Against Session Management Exploits,Log Processing.php,0.7824392705000938,0,0,1,0
-Defenses Against Session Management Exploits,Fundamental Session Management Security.php,0.7821799160911386,0,0,1,0
-Defenses Against Session Management Exploits,Authenticator Lifecycle.php,0.781025621425676,0,0,1,0
-Defenses Against Session Management Exploits,Cookie-based Session Management.php,0.7805065974279557,0,0,1,0
-Defenses Against Session Management Exploits,Generic Web Service Security.php,0.7799469140085348,0,0,1,0
-Defenses Against Session Management Exploits,Access Control Architecture.php,0.7770220935804575,0,0,1,0
-Defenses Against Session Management Exploits,Credential Recovery.php,0.777018857620003,0,0,1,0
-Defenses Against Session Management Exploits,Out of Band Verifier.php,0.7754949024932087,0,0,1,0
-Defenses Against Session Management Exploits,RESTful Web Service.php,0.7747766328993442,0,0,1,0
-Defenses Against Session Management Exploits,Server Communication Security.php,0.7742037709857181,0,0,1,0
-Defenses Against Session Management Exploits,Configuration Architecture.php,0.7735784052663758,0,0,1,0
-Defenses Against Session Management Exploits,General Data Protection.php,0.7714263311881735,0,0,1,0
-Defenses Against Session Management Exploits,Cryptographic Verifier.php,0.7705876577485521,0,0,1,0
-Defenses Against Session Management Exploits,"Errors, Logging and Auditing Architecture.php",0.7694344584385049,0,0,1,0
-Defenses Against Session Management Exploits,Output Encoding and Injection Prevention.php,0.7682223379141124,0,0,1,0
-Defenses Against Session Management Exploits,Password Security.php,0.7676002551150576,0,0,1,0
-Defenses Against Session Management Exploits,Input and Output Architecture.php,0.7671100305819281,0,0,1,0
-Defenses Against Session Management Exploits,HTTP Request Header Validation.php,0.7633047073365231,0,0,1,0
-Defenses Against Session Management Exploits,Algorithms.php,0.7629024233411548,0,0,1,0
-Defenses Against Session Management Exploits,Token-based Session Management.php,0.7623831430801475,0,0,1,0
-Defenses Against Session Management Exploits,Communications Architecture.php,0.7622723829694276,0,0,1,0
-Defenses Against Session Management Exploits,Cryptographic Architecture.php,0.7606694727458816,0,0,1,0
-Defenses Against Session Management Exploits,Log Protection.php,0.7599609635544204,0,0,1,0
-Defenses Against Session Management Exploits,Federated Re-authentication.php,0.7599584036873908,0,0,1,0
-Defenses Against Session Management Exploits,Input Validation.php,0.7575591735864361,0,0,1,0
-Defenses Against Session Management Exploits,Build and Deploy.php,0.7532983350569649,0,0,1,0
-Defenses Against Session Management Exploits,Service Authentication.php,0.7516660657799963,0,0,1,0
-Defenses Against Session Management Exploits,Data Protection and Privacy Architecture.php,0.7511177394211559,0,0,1,0
-Defenses Against Session Management Exploits,Deserialization Prevention.php,0.7493528640875867,0,0,1,0
-Defenses Against Session Management Exploits,Authentication Architecture.php,0.7475351995598246,0,0,1,0
-Defenses Against Session Management Exploits,Client Communication Security.php,0.74501579045123,0,0,1,0
-Defenses Against Session Management Exploits,Business Logic Architecture.php,0.7438331981699581,0,0,1,0
-Defenses Against Session Management Exploits,Client-side Data Protection.php,0.7413134637035542,0,0,1,0
-Defenses Against Session Management Exploits,Credential Storage.php,0.7407384085744657,0,0,1,0
-Defenses Against Session Management Exploits,One Time Verifier.php,0.7406068182386165,0,0,1,0
-Defenses Against Session Management Exploits,Data Classification.php,0.7399448229797166,0,0,1,0
-Defenses Against Session Management Exploits,Secure Software Development Lifecycle.php,0.7387475791172262,0,0,1,0
-Defenses Against Session Management Exploits,SSRF Protection.php,0.7380611975280525,0,0,1,0
-Defenses Against Session Management Exploits,SOAP Web Service.php,0.7380359900078672,0,0,1,0
-Defenses Against Session Management Exploits,Look-up Secret Verifier.php,0.736107289223769,0,0,1,0
-Defenses Against Session Management Exploits,HTTP Security Headers.php,0.7351443382589037,0,0,1,0
-Defenses Against Session Management Exploits,Dependency.php,0.7345089107510278,0,0,1,0
-Defenses Against Session Management Exploits,Unintended Security Disclosure.php,0.7343681188297544,0,0,1,0
-Defenses Against Session Management Exploits,Secret Management.php,0.7339398199632713,0,0,1,0
-Defenses Against Session Management Exploits,File Execution.php,0.7336011143079352,0,0,1,0
-Defenses Against Session Management Exploits,GraphQL.php,0.7330277422476055,0,0,1,0
-Defenses Against Session Management Exploits,Malicious Code Search.php,0.7324239839141862,0,0,1,0
-Defenses Against Session Management Exploits,Sanitization and Sandboxing.php,0.731708081655622,0,0,1,0
-Defenses Against Session Management Exploits,Application Integrity.php,0.7273092363742892,0,0,1,0
-Defenses Against Session Management Exploits,Malicious Software Architecture.php,0.7248643345569553,0,0,1,0
-Defenses Against Session Management Exploits,Secure File Upload Architecture.php,0.7240001490248628,0,0,1,0
-Defenses Against Session Management Exploits,Error Handling.php,0.7211389834514533,0,0,1,0
-Defenses Against Session Management Exploits,File Storage.php,0.7207510035520355,0,0,1,0
-Defenses Against Session Management Exploits,File Download.php,0.7182013021868344,0,0,1,0
-Defenses Against Session Management Exploits,"Memory, String, and Unmanaged Code.php",0.7171845868958219,0,0,1,0
-Defenses Against Session Management Exploits,File Integrity.php,0.7082540150095729,0,0,1,0
-Defenses Against Session Management Exploits,Random Values.php,0.7077489063178879,0,0,1,0
-Defenses Against Session Management Exploits,File Upload.php,0.6917017389432043,0,0,1,0
-Defenses Against Session Management Exploits,Code Integrity.php,0.6877742466267778,0,0,1,0
+Defenses Against Session Management Exploits,Defenses Against Session Management Exploits.php,0.791788963510107,0,0,0,1
+Defenses Against Session Management Exploits,Session Binding.php,0.7906872142614003,0,1,0,0
+Defenses Against Session Management Exploits,Business Logic Security.php,0.7875257144090548,0,1,0,0
+Defenses Against Session Management Exploits,Log Processing.php,0.7824392705000938,0,1,0,0
+Defenses Against Session Management Exploits,Fundamental Session Management Security.php,0.7821799160911386,0,1,0,0
+Defenses Against Session Management Exploits,Authenticator Lifecycle.php,0.781025621425676,0,1,0,0
+Defenses Against Session Management Exploits,Cookie-based Session Management.php,0.7805065974279557,0,1,0,0
+Defenses Against Session Management Exploits,Generic Web Service Security.php,0.7799469140085348,0,1,0,0
+Defenses Against Session Management Exploits,Access Control Architecture.php,0.7770220935804575,0,1,0,0
+Defenses Against Session Management Exploits,Credential Recovery.php,0.777018857620003,0,1,0,0
+Defenses Against Session Management Exploits,Out of Band Verifier.php,0.7754949024932087,0,1,0,0
+Defenses Against Session Management Exploits,RESTful Web Service.php,0.7747766328993442,0,1,0,0
+Defenses Against Session Management Exploits,Server Communication Security.php,0.7742037709857181,0,1,0,0
+Defenses Against Session Management Exploits,Configuration Architecture.php,0.7735784052663758,0,1,0,0
+Defenses Against Session Management Exploits,General Data Protection.php,0.7714263311881735,0,1,0,0
+Defenses Against Session Management Exploits,Cryptographic Verifier.php,0.7705876577485521,0,1,0,0
+Defenses Against Session Management Exploits,"Errors, Logging and Auditing Architecture.php",0.7694344584385049,0,1,0,0
+Defenses Against Session Management Exploits,Output Encoding and Injection Prevention.php,0.7682223379141124,0,1,0,0
+Defenses Against Session Management Exploits,Password Security.php,0.7676002551150576,0,1,0,0
+Defenses Against Session Management Exploits,Input and Output Architecture.php,0.7671100305819281,0,1,0,0
+Defenses Against Session Management Exploits,HTTP Request Header Validation.php,0.7633047073365231,0,1,0,0
+Defenses Against Session Management Exploits,Algorithms.php,0.7629024233411548,0,1,0,0
+Defenses Against Session Management Exploits,Token-based Session Management.php,0.7623831430801475,0,1,0,0
+Defenses Against Session Management Exploits,Communications Architecture.php,0.7622723829694276,0,1,0,0
+Defenses Against Session Management Exploits,Cryptographic Architecture.php,0.7606694727458816,0,1,0,0
+Defenses Against Session Management Exploits,Log Protection.php,0.7599609635544204,0,1,0,0
+Defenses Against Session Management Exploits,Federated Re-authentication.php,0.7599584036873908,0,1,0,0
+Defenses Against Session Management Exploits,Input Validation.php,0.7575591735864361,0,1,0,0
+Defenses Against Session Management Exploits,Build and Deploy.php,0.7532983350569649,0,1,0,0
+Defenses Against Session Management Exploits,Service Authentication.php,0.7516660657799963,0,1,0,0
+Defenses Against Session Management Exploits,Data Protection and Privacy Architecture.php,0.7511177394211559,0,1,0,0
+Defenses Against Session Management Exploits,Deserialization Prevention.php,0.7493528640875867,0,1,0,0
+Defenses Against Session Management Exploits,Authentication Architecture.php,0.7475351995598246,0,1,0,0
+Defenses Against Session Management Exploits,Client Communication Security.php,0.74501579045123,0,1,0,0
+Defenses Against Session Management Exploits,Business Logic Architecture.php,0.7438331981699581,0,1,0,0
+Defenses Against Session Management Exploits,Client-side Data Protection.php,0.7413134637035542,0,1,0,0
+Defenses Against Session Management Exploits,Credential Storage.php,0.7407384085744657,0,1,0,0
+Defenses Against Session Management Exploits,One Time Verifier.php,0.7406068182386165,0,1,0,0
+Defenses Against Session Management Exploits,Data Classification.php,0.7399448229797166,0,1,0,0
+Defenses Against Session Management Exploits,Secure Software Development Lifecycle.php,0.7387475791172262,0,1,0,0
+Defenses Against Session Management Exploits,SSRF Protection.php,0.7380611975280525,0,1,0,0
+Defenses Against Session Management Exploits,SOAP Web Service.php,0.7380359900078672,0,1,0,0
+Defenses Against Session Management Exploits,Look-up Secret Verifier.php,0.736107289223769,0,1,0,0
+Defenses Against Session Management Exploits,HTTP Security Headers.php,0.7351443382589037,0,1,0,0
+Defenses Against Session Management Exploits,Dependency.php,0.7345089107510278,0,1,0,0
+Defenses Against Session Management Exploits,Unintended Security Disclosure.php,0.7343681188297544,0,1,0,0
+Defenses Against Session Management Exploits,Secret Management.php,0.7339398199632713,0,1,0,0
+Defenses Against Session Management Exploits,File Execution.php,0.7336011143079352,0,1,0,0
+Defenses Against Session Management Exploits,GraphQL.php,0.7330277422476055,0,1,0,0
+Defenses Against Session Management Exploits,Malicious Code Search.php,0.7324239839141862,0,1,0,0
+Defenses Against Session Management Exploits,Sanitization and Sandboxing.php,0.731708081655622,0,1,0,0
+Defenses Against Session Management Exploits,Application Integrity.php,0.7273092363742892,0,1,0,0
+Defenses Against Session Management Exploits,Malicious Software Architecture.php,0.7248643345569553,0,1,0,0
+Defenses Against Session Management Exploits,Secure File Upload Architecture.php,0.7240001490248628,0,1,0,0
+Defenses Against Session Management Exploits,Error Handling.php,0.7211389834514533,0,1,0,0
+Defenses Against Session Management Exploits,File Storage.php,0.7207510035520355,0,1,0,0
+Defenses Against Session Management Exploits,File Download.php,0.7182013021868344,0,1,0,0
+Defenses Against Session Management Exploits,"Memory, String, and Unmanaged Code.php",0.7171845868958219,0,1,0,0
+Defenses Against Session Management Exploits,File Integrity.php,0.7082540150095729,0,1,0,0
+Defenses Against Session Management Exploits,Random Values.php,0.7077489063178879,0,1,0,0
+Defenses Against Session Management Exploits,File Upload.php,0.6917017389432043,0,1,0,0
+Defenses Against Session Management Exploits,Code Integrity.php,0.6877742466267778,0,1,0,0
 Dependency,Dependency.php,0.8526614972132884,1,0,0,0
 Dependency,Configuration Architecture.php,0.8413261238613814,0,0,1,0
 Dependency,Secure Software Development Lifecycle.php,0.8358478114883272,0,0,1,0
@@ -1040,69 +1040,69 @@ Deserialization Prevention,RESTful Web Service.php,0.8012179250791431,0,1,0,0
 Deserialization Prevention,Defenses Against Session Management Exploits.php,0.8006930553181052,0,1,0,0
 Deserialization Prevention,Generic Web Service Security.php,0.7957849800762267,0,1,0,0
 Deserialization Prevention,Cookie-based Session Management.php,0.7947549718628598,0,1,0,0
-Deserialization Prevention,Deserialization Prevention.php,0.7927300587990016,1,0,0,0
-Deserialization Prevention,Fundamental Session Management Security.php,0.7911020071790609,0,0,1,0
-Deserialization Prevention,Input and Output Architecture.php,0.790087863266316,0,0,1,0
-Deserialization Prevention,Session Binding.php,0.7896067968158896,0,0,1,0
-Deserialization Prevention,Configuration Architecture.php,0.7888793087037133,0,0,1,0
-Deserialization Prevention,Operation Level Access Control Operation Level Access Control.php,0.7861728631511608,0,0,1,0
-Deserialization Prevention,HTTP Request Header Validation.php,0.7839246887187139,0,0,1,0
-Deserialization Prevention,Output Encoding and Injection Prevention.php,0.7834143734695684,0,0,1,0
-Deserialization Prevention,General Data Protection.php,0.7816091105996201,0,0,1,0
-Deserialization Prevention,Server Communication Security.php,0.7810959787059576,0,0,1,0
-Deserialization Prevention,Build and Deploy.php,0.7763060387820337,0,0,1,0
-Deserialization Prevention,Secure Software Development Lifecycle.php,0.7756603185094011,0,0,1,0
-Deserialization Prevention,Input Validation.php,0.7735943431025364,0,0,1,0
-Deserialization Prevention,Sanitization and Sandboxing.php,0.7709771132860308,0,0,1,0
-Deserialization Prevention,General Access Control Design.php,0.770614937530202,0,0,1,0
-Deserialization Prevention,Access Control Architecture.php,0.7661388370445972,0,0,1,0
-Deserialization Prevention,Client-side Data Protection.php,0.7648278984023436,0,0,1,0
-Deserialization Prevention,Application Integrity.php,0.7625387273084795,0,0,1,0
-Deserialization Prevention,Algorithms.php,0.7607149535750777,0,0,1,0
-Deserialization Prevention,Dependency.php,0.7607071710366949,0,0,1,0
-Deserialization Prevention,Cryptographic Architecture.php,0.7604693056624112,0,0,1,0
-Deserialization Prevention,Log Content.php,0.7601991031554169,0,0,1,0
-Deserialization Prevention,Client Communication Security.php,0.7588563283609371,0,0,1,0
-Deserialization Prevention,Federated Re-authentication.php,0.7585852683160021,0,0,1,0
-Deserialization Prevention,Business Logic Architecture.php,0.7565202509676079,0,0,1,0
-Deserialization Prevention,GraphQL.php,0.7546436129428122,0,0,1,0
-Deserialization Prevention,File Execution.php,0.7530683909473573,0,0,1,0
-Deserialization Prevention,Token-based Session Management.php,0.7525678380029377,0,0,1,0
-Deserialization Prevention,File Storage.php,0.7524812357037864,0,0,1,0
-Deserialization Prevention,Communications Architecture.php,0.751612528176813,0,0,1,0
-Deserialization Prevention,Log Protection.php,0.751395928428761,0,0,1,0
-Deserialization Prevention,Secure File Upload Architecture.php,0.7505547086481986,0,0,1,0
-Deserialization Prevention,SSRF Protection.php,0.7495576958157366,0,0,1,0
-Deserialization Prevention,Unintended Security Disclosure.php,0.7494458253365763,0,0,1,0
-Deserialization Prevention,"Memory, String, and Unmanaged Code.php",0.7488305627408385,0,0,1,0
-Deserialization Prevention,Data Classification.php,0.7480132010284631,0,0,1,0
-Deserialization Prevention,Log Processing.php,0.7479519915979114,0,0,1,0
-Deserialization Prevention,"Errors, Logging and Auditing Architecture.php",0.7466259796527044,0,0,1,0
-Deserialization Prevention,HTTP Security Headers.php,0.7449521366297557,0,0,1,0
-Deserialization Prevention,Service Authentication.php,0.7429363700935372,0,0,1,0
-Deserialization Prevention,Authentication Architecture.php,0.7387962191332098,0,0,1,0
-Deserialization Prevention,Data Protection and Privacy Architecture.php,0.738259057993284,0,0,1,0
-Deserialization Prevention,Cryptographic Verifier.php,0.7371294931531513,0,0,1,0
-Deserialization Prevention,Error Handling.php,0.7370271447943659,0,0,1,0
-Deserialization Prevention,Session Termination.php,0.7364824447709912,0,0,1,0
-Deserialization Prevention,File Download.php,0.7346211389920028,0,0,1,0
-Deserialization Prevention,Secret Management.php,0.7336632384475863,0,0,1,0
-Deserialization Prevention,Code Integrity.php,0.7333146335177771,0,0,1,0
-Deserialization Prevention,File Integrity.php,0.7329381123000884,0,0,1,0
-Deserialization Prevention,Malicious Code Search.php,0.7328997387689289,0,0,1,0
-Deserialization Prevention,Password Security.php,0.7293922081976707,0,0,1,0
-Deserialization Prevention,Look-up Secret Verifier.php,0.7290531495789428,0,0,1,0
-Deserialization Prevention,Malicious Software Architecture.php,0.7278652074429373,0,0,1,0
-Deserialization Prevention,Credential Recovery.php,0.7269516171785488,0,0,1,0
-Deserialization Prevention,Other Access Control Considerations.php,0.7247401411896941,0,0,1,0
-Deserialization Prevention,Out of Band Verifier.php,0.7208983203601547,0,0,1,0
-Deserialization Prevention,Authenticator Lifecycle.php,0.7187935132743628,0,0,1,0
-Deserialization Prevention,Random Values.php,0.7177981842459136,0,0,1,0
-Deserialization Prevention,General Authenticator Security.php,0.7166008752417332,0,0,1,0
-Deserialization Prevention,Business Logic Security.php,0.7146411291978443,0,0,1,0
-Deserialization Prevention,One Time Verifier.php,0.7021168451308406,0,0,1,0
-Deserialization Prevention,Credential Storage.php,0.7018717287267529,0,0,1,0
-Deserialization Prevention,File Upload.php,0.6897034477353681,0,0,1,0
+Deserialization Prevention,Deserialization Prevention.php,0.7927300587990016,0,0,0,1
+Deserialization Prevention,Fundamental Session Management Security.php,0.7911020071790609,0,1,0,0
+Deserialization Prevention,Input and Output Architecture.php,0.790087863266316,0,1,0,0
+Deserialization Prevention,Session Binding.php,0.7896067968158896,0,1,0,0
+Deserialization Prevention,Configuration Architecture.php,0.7888793087037133,0,1,0,0
+Deserialization Prevention,Operation Level Access Control Operation Level Access Control.php,0.7861728631511608,0,1,0,0
+Deserialization Prevention,HTTP Request Header Validation.php,0.7839246887187139,0,1,0,0
+Deserialization Prevention,Output Encoding and Injection Prevention.php,0.7834143734695684,0,1,0,0
+Deserialization Prevention,General Data Protection.php,0.7816091105996201,0,1,0,0
+Deserialization Prevention,Server Communication Security.php,0.7810959787059576,0,1,0,0
+Deserialization Prevention,Build and Deploy.php,0.7763060387820337,0,1,0,0
+Deserialization Prevention,Secure Software Development Lifecycle.php,0.7756603185094011,0,1,0,0
+Deserialization Prevention,Input Validation.php,0.7735943431025364,0,1,0,0
+Deserialization Prevention,Sanitization and Sandboxing.php,0.7709771132860308,0,1,0,0
+Deserialization Prevention,General Access Control Design.php,0.770614937530202,0,1,0,0
+Deserialization Prevention,Access Control Architecture.php,0.7661388370445972,0,1,0,0
+Deserialization Prevention,Client-side Data Protection.php,0.7648278984023436,0,1,0,0
+Deserialization Prevention,Application Integrity.php,0.7625387273084795,0,1,0,0
+Deserialization Prevention,Algorithms.php,0.7607149535750777,0,1,0,0
+Deserialization Prevention,Dependency.php,0.7607071710366949,0,1,0,0
+Deserialization Prevention,Cryptographic Architecture.php,0.7604693056624112,0,1,0,0
+Deserialization Prevention,Log Content.php,0.7601991031554169,0,1,0,0
+Deserialization Prevention,Client Communication Security.php,0.7588563283609371,0,1,0,0
+Deserialization Prevention,Federated Re-authentication.php,0.7585852683160021,0,1,0,0
+Deserialization Prevention,Business Logic Architecture.php,0.7565202509676079,0,1,0,0
+Deserialization Prevention,GraphQL.php,0.7546436129428122,0,1,0,0
+Deserialization Prevention,File Execution.php,0.7530683909473573,0,1,0,0
+Deserialization Prevention,Token-based Session Management.php,0.7525678380029377,0,1,0,0
+Deserialization Prevention,File Storage.php,0.7524812357037864,0,1,0,0
+Deserialization Prevention,Communications Architecture.php,0.751612528176813,0,1,0,0
+Deserialization Prevention,Log Protection.php,0.751395928428761,0,1,0,0
+Deserialization Prevention,Secure File Upload Architecture.php,0.7505547086481986,0,1,0,0
+Deserialization Prevention,SSRF Protection.php,0.7495576958157366,0,1,0,0
+Deserialization Prevention,Unintended Security Disclosure.php,0.7494458253365763,0,1,0,0
+Deserialization Prevention,"Memory, String, and Unmanaged Code.php",0.7488305627408385,0,1,0,0
+Deserialization Prevention,Data Classification.php,0.7480132010284631,0,1,0,0
+Deserialization Prevention,Log Processing.php,0.7479519915979114,0,1,0,0
+Deserialization Prevention,"Errors, Logging and Auditing Architecture.php",0.7466259796527044,0,1,0,0
+Deserialization Prevention,HTTP Security Headers.php,0.7449521366297557,0,1,0,0
+Deserialization Prevention,Service Authentication.php,0.7429363700935372,0,1,0,0
+Deserialization Prevention,Authentication Architecture.php,0.7387962191332098,0,1,0,0
+Deserialization Prevention,Data Protection and Privacy Architecture.php,0.738259057993284,0,1,0,0
+Deserialization Prevention,Cryptographic Verifier.php,0.7371294931531513,0,1,0,0
+Deserialization Prevention,Error Handling.php,0.7370271447943659,0,1,0,0
+Deserialization Prevention,Session Termination.php,0.7364824447709912,0,1,0,0
+Deserialization Prevention,File Download.php,0.7346211389920028,0,1,0,0
+Deserialization Prevention,Secret Management.php,0.7336632384475863,0,1,0,0
+Deserialization Prevention,Code Integrity.php,0.7333146335177771,0,1,0,0
+Deserialization Prevention,File Integrity.php,0.7329381123000884,0,1,0,0
+Deserialization Prevention,Malicious Code Search.php,0.7328997387689289,0,1,0,0
+Deserialization Prevention,Password Security.php,0.7293922081976707,0,1,0,0
+Deserialization Prevention,Look-up Secret Verifier.php,0.7290531495789428,0,1,0,0
+Deserialization Prevention,Malicious Software Architecture.php,0.7278652074429373,0,1,0,0
+Deserialization Prevention,Credential Recovery.php,0.7269516171785488,0,1,0,0
+Deserialization Prevention,Other Access Control Considerations.php,0.7247401411896941,0,1,0,0
+Deserialization Prevention,Out of Band Verifier.php,0.7208983203601547,0,1,0,0
+Deserialization Prevention,Authenticator Lifecycle.php,0.7187935132743628,0,1,0,0
+Deserialization Prevention,Random Values.php,0.7177981842459136,0,1,0,0
+Deserialization Prevention,General Authenticator Security.php,0.7166008752417332,0,1,0,0
+Deserialization Prevention,Business Logic Security.php,0.7146411291978443,0,1,0,0
+Deserialization Prevention,One Time Verifier.php,0.7021168451308406,0,1,0,0
+Deserialization Prevention,Credential Storage.php,0.7018717287267529,0,1,0,0
+Deserialization Prevention,File Upload.php,0.6897034477353681,0,1,0,0
 Error Handling,Error Handling.php,0.8160280050266066,1,0,0,0
 Error Handling,Sensitive Private Data.php,0.7964479255338107,0,0,1,0
 Error Handling,"Errors, Logging and Auditing Architecture.php",0.7699081489325305,0,0,1,0
@@ -1246,70 +1246,70 @@ File Download,File Execution.php,0.8244896980271612,0,1,0,0
 File Download,Sensitive Private Data.php,0.8186063423951004,0,1,0,0
 File Download,Unintended Security Disclosure.php,0.8185578804485989,0,1,0,0
 File Download,Application Integrity.php,0.8161990281178064,0,1,0,0
-File Download,File Download.php,0.8146720540442165,1,0,0,0
-File Download,HTTP Security Headers.php,0.8142969863720777,0,0,1,0
-File Download,Deserialization Prevention.php,0.8104518344519351,0,0,1,0
-File Download,File Storage.php,0.8076790180772153,0,0,1,0
-File Download,General Data Protection.php,0.8069216627590619,0,0,1,0
-File Download,"Memory, String, and Unmanaged Code.php",0.8061696131391921,0,0,1,0
-File Download,Cookie-based Session Management.php,0.8052642893928488,0,0,1,0
-File Download,Defenses Against Session Management Exploits.php,0.8049145796073316,0,0,1,0
-File Download,Generic Web Service Security.php,0.8039352678046995,0,0,1,0
-File Download,HTTP Request Header Validation.php,0.8037961521370816,0,0,1,0
-File Download,File Integrity.php,0.8037951358084381,0,0,1,0
-File Download,Secure File Upload Architecture.php,0.800723298251839,0,0,1,0
-File Download,RESTful Web Service.php,0.7988392672294198,0,0,1,0
-File Download,Input and Output Architecture.php,0.7938429925053819,0,0,1,0
-File Download,Build and Deploy.php,0.7933312759644007,0,0,1,0
-File Download,Output Encoding and Injection Prevention.php,0.7900437912076466,0,0,1,0
-File Download,Malicious Code Search.php,0.7899464786138113,0,0,1,0
-File Download,Session Binding.php,0.7898746999879507,0,0,1,0
-File Download,Fundamental Session Management Security.php,0.7896279759805414,0,0,1,0
-File Download,Log Protection.php,0.7873784968903497,0,0,1,0
-File Download,SSRF Protection.php,0.7871178339086491,0,0,1,0
-File Download,Configuration Architecture.php,0.7853404468336965,0,0,1,0
-File Download,Operation Level Access Control Operation Level Access Control.php,0.7850978648154573,0,0,1,0
-File Download,Sanitization and Sandboxing.php,0.7850894165525236,0,0,1,0
-File Download,Input Validation.php,0.7833141305905595,0,0,1,0
-File Download,Dependency.php,0.7827177964352423,0,0,1,0
-File Download,General Access Control Design.php,0.7827073134325164,0,0,1,0
-File Download,Log Processing.php,0.7797608204503365,0,0,1,0
-File Download,Federated Re-authentication.php,0.778019214451133,0,0,1,0
-File Download,Server Communication Security.php,0.775693333400739,0,0,1,0
-File Download,Access Control Architecture.php,0.7739145787224295,0,0,1,0
-File Download,Other Access Control Considerations.php,0.770921108293814,0,0,1,0
-File Download,"Errors, Logging and Auditing Architecture.php",0.7704638283475324,0,0,1,0
-File Download,File Upload.php,0.7677959139163992,0,0,1,0
-File Download,Business Logic Architecture.php,0.7661760291165809,0,0,1,0
-File Download,Communications Architecture.php,0.7655761375460663,0,0,1,0
-File Download,Secure Software Development Lifecycle.php,0.7650608951639986,0,0,1,0
-File Download,Log Content.php,0.7643689368649575,0,0,1,0
-File Download,Malicious Software Architecture.php,0.7642166987128269,0,0,1,0
-File Download,SOAP Web Service.php,0.763707005793038,0,0,1,0
-File Download,Code Integrity.php,0.7631712620815227,0,0,1,0
-File Download,GraphQL.php,0.7627550267600836,0,0,1,0
-File Download,General Authenticator Security.php,0.759659619496769,0,0,1,0
-File Download,Cryptographic Architecture.php,0.756885096960783,0,0,1,0
-File Download,Client Communication Security.php,0.7564232877884491,0,0,1,0
-File Download,Data Protection and Privacy Architecture.php,0.7554185470192467,0,0,1,0
-File Download,Data Classification.php,0.7548060898150067,0,0,1,0
-File Download,Algorithms.php,0.7547842415328664,0,0,1,0
-File Download,Service Authentication.php,0.7535764412418109,0,0,1,0
-File Download,Token-based Session Management.php,0.7519601002304508,0,0,1,0
-File Download,Session Termination.php,0.747624560323285,0,0,1,0
-File Download,Authenticator Lifecycle.php,0.7462651212681914,0,0,1,0
-File Download,Password Security.php,0.7401286847843869,0,0,1,0
-File Download,Out of Band Verifier.php,0.7401141322253575,0,0,1,0
-File Download,Error Handling.php,0.7396782968237099,0,0,1,0
-File Download,Authentication Architecture.php,0.739482517043904,0,0,1,0
-File Download,Cryptographic Verifier.php,0.7341810322569523,0,0,1,0
-File Download,Credential Recovery.php,0.7332508100920667,0,0,1,0
-File Download,Business Logic Security.php,0.7283175309212191,0,0,1,0
-File Download,Secret Management.php,0.7266314017572746,0,0,1,0
-File Download,Random Values.php,0.7220537898132979,0,0,1,0
-File Download,Look-up Secret Verifier.php,0.7177915212526664,0,0,1,0
-File Download,Credential Storage.php,0.7156312542360839,0,0,1,0
-File Download,One Time Verifier.php,0.7081151080154389,0,0,1,0
+File Download,File Download.php,0.8146720540442165,0,0,0,1
+File Download,HTTP Security Headers.php,0.8142969863720777,0,1,0,0
+File Download,Deserialization Prevention.php,0.8104518344519351,0,1,0,0
+File Download,File Storage.php,0.8076790180772153,0,1,0,0
+File Download,General Data Protection.php,0.8069216627590619,0,1,0,0
+File Download,"Memory, String, and Unmanaged Code.php",0.8061696131391921,0,1,0,0
+File Download,Cookie-based Session Management.php,0.8052642893928488,0,1,0,0
+File Download,Defenses Against Session Management Exploits.php,0.8049145796073316,0,1,0,0
+File Download,Generic Web Service Security.php,0.8039352678046995,0,1,0,0
+File Download,HTTP Request Header Validation.php,0.8037961521370816,0,1,0,0
+File Download,File Integrity.php,0.8037951358084381,0,1,0,0
+File Download,Secure File Upload Architecture.php,0.800723298251839,0,1,0,0
+File Download,RESTful Web Service.php,0.7988392672294198,0,1,0,0
+File Download,Input and Output Architecture.php,0.7938429925053819,0,1,0,0
+File Download,Build and Deploy.php,0.7933312759644007,0,1,0,0
+File Download,Output Encoding and Injection Prevention.php,0.7900437912076466,0,1,0,0
+File Download,Malicious Code Search.php,0.7899464786138113,0,1,0,0
+File Download,Session Binding.php,0.7898746999879507,0,1,0,0
+File Download,Fundamental Session Management Security.php,0.7896279759805414,0,1,0,0
+File Download,Log Protection.php,0.7873784968903497,0,1,0,0
+File Download,SSRF Protection.php,0.7871178339086491,0,1,0,0
+File Download,Configuration Architecture.php,0.7853404468336965,0,1,0,0
+File Download,Operation Level Access Control Operation Level Access Control.php,0.7850978648154573,0,1,0,0
+File Download,Sanitization and Sandboxing.php,0.7850894165525236,0,1,0,0
+File Download,Input Validation.php,0.7833141305905595,0,1,0,0
+File Download,Dependency.php,0.7827177964352423,0,1,0,0
+File Download,General Access Control Design.php,0.7827073134325164,0,1,0,0
+File Download,Log Processing.php,0.7797608204503365,0,1,0,0
+File Download,Federated Re-authentication.php,0.778019214451133,0,1,0,0
+File Download,Server Communication Security.php,0.775693333400739,0,1,0,0
+File Download,Access Control Architecture.php,0.7739145787224295,0,1,0,0
+File Download,Other Access Control Considerations.php,0.770921108293814,0,1,0,0
+File Download,"Errors, Logging and Auditing Architecture.php",0.7704638283475324,0,1,0,0
+File Download,File Upload.php,0.7677959139163992,0,1,0,0
+File Download,Business Logic Architecture.php,0.7661760291165809,0,1,0,0
+File Download,Communications Architecture.php,0.7655761375460663,0,1,0,0
+File Download,Secure Software Development Lifecycle.php,0.7650608951639986,0,1,0,0
+File Download,Log Content.php,0.7643689368649575,0,1,0,0
+File Download,Malicious Software Architecture.php,0.7642166987128269,0,1,0,0
+File Download,SOAP Web Service.php,0.763707005793038,0,1,0,0
+File Download,Code Integrity.php,0.7631712620815227,0,1,0,0
+File Download,GraphQL.php,0.7627550267600836,0,1,0,0
+File Download,General Authenticator Security.php,0.759659619496769,0,1,0,0
+File Download,Cryptographic Architecture.php,0.756885096960783,0,1,0,0
+File Download,Client Communication Security.php,0.7564232877884491,0,1,0,0
+File Download,Data Protection and Privacy Architecture.php,0.7554185470192467,0,1,0,0
+File Download,Data Classification.php,0.7548060898150067,0,1,0,0
+File Download,Algorithms.php,0.7547842415328664,0,1,0,0
+File Download,Service Authentication.php,0.7535764412418109,0,1,0,0
+File Download,Token-based Session Management.php,0.7519601002304508,0,1,0,0
+File Download,Session Termination.php,0.747624560323285,0,1,0,0
+File Download,Authenticator Lifecycle.php,0.7462651212681914,0,1,0,0
+File Download,Password Security.php,0.7401286847843869,0,1,0,0
+File Download,Out of Band Verifier.php,0.7401141322253575,0,1,0,0
+File Download,Error Handling.php,0.7396782968237099,0,1,0,0
+File Download,Authentication Architecture.php,0.739482517043904,0,1,0,0
+File Download,Cryptographic Verifier.php,0.7341810322569523,0,1,0,0
+File Download,Credential Recovery.php,0.7332508100920667,0,1,0,0
+File Download,Business Logic Security.php,0.7283175309212191,0,1,0,0
+File Download,Secret Management.php,0.7266314017572746,0,1,0,0
+File Download,Random Values.php,0.7220537898132979,0,1,0,0
+File Download,Look-up Secret Verifier.php,0.7177915212526664,0,1,0,0
+File Download,Credential Storage.php,0.7156312542360839,0,1,0,0
+File Download,One Time Verifier.php,0.7081151080154389,0,1,0,0
 File Execution,Client-side Data Protection.php,0.8343271533426007,0,1,0,0
 File Execution,File Execution.php,0.833893194954905,1,0,0,0
 File Execution,Unintended Security Disclosure.php,0.8201275659152536,0,0,1,0
@@ -1388,66 +1388,66 @@ File Integrity,Deserialization Prevention.php,0.7867123058341583,0,1,0,0
 File Integrity,Client-side Data Protection.php,0.7840867223879078,0,1,0,0
 File Integrity,File Download.php,0.7817019792288172,0,1,0,0
 File Integrity,File Storage.php,0.7814701684809284,0,1,0,0
-File Integrity,File Integrity.php,0.7781663078396754,1,0,0,0
-File Integrity,Data Protection and Privacy Architecture.php,0.7730117354384497,0,0,1,0
-File Integrity,Malicious Code Search.php,0.7716715914363842,0,0,1,0
-File Integrity,Generic Web Service Security.php,0.7686307631877617,0,0,1,0
-File Integrity,"Memory, String, and Unmanaged Code.php",0.7683424533029866,0,0,1,0
-File Integrity,Input and Output Architecture.php,0.7664986612075068,0,0,1,0
-File Integrity,Dependency.php,0.7644809848642633,0,0,1,0
-File Integrity,Configuration Architecture.php,0.7642791147432101,0,0,1,0
-File Integrity,RESTful Web Service.php,0.7635416720975632,0,0,1,0
-File Integrity,Cryptographic Architecture.php,0.7632509642735501,0,0,1,0
-File Integrity,General Data Protection.php,0.7614313948226521,0,0,1,0
-File Integrity,HTTP Request Header Validation.php,0.7607637841230976,0,0,1,0
-File Integrity,Input Validation.php,0.7587706663058711,0,0,1,0
-File Integrity,Server Communication Security.php,0.7580542503666063,0,0,1,0
-File Integrity,Build and Deploy.php,0.757670976964779,0,0,1,0
-File Integrity,Log Protection.php,0.7569640253345351,0,0,1,0
-File Integrity,Log Processing.php,0.755581770102354,0,0,1,0
-File Integrity,File Upload.php,0.7545303784639386,0,0,1,0
-File Integrity,Algorithms.php,0.7535853203968759,0,0,1,0
-File Integrity,Log Content.php,0.7534432761242434,0,0,1,0
-File Integrity,Data Classification.php,0.7530365897160758,0,0,1,0
-File Integrity,SSRF Protection.php,0.7527813455958741,0,0,1,0
-File Integrity,Secure File Upload Architecture.php,0.7521360225293152,0,0,1,0
-File Integrity,Cookie-based Session Management.php,0.7507769246923399,0,0,1,0
-File Integrity,Secure Software Development Lifecycle.php,0.7498351890906904,0,0,1,0
-File Integrity,Operation Level Access Control Operation Level Access Control.php,0.7483678291870026,0,0,1,0
-File Integrity,Defenses Against Session Management Exploits.php,0.747267568291277,0,0,1,0
-File Integrity,Communications Architecture.php,0.7456792359593878,0,0,1,0
-File Integrity,General Access Control Design.php,0.7449897018995939,0,0,1,0
-File Integrity,Password Security.php,0.7432183998055106,0,0,1,0
-File Integrity,"Errors, Logging and Auditing Architecture.php",0.742894274078574,0,0,1,0
-File Integrity,Sanitization and Sandboxing.php,0.7402752070285371,0,0,1,0
-File Integrity,Session Binding.php,0.7400798995819647,0,0,1,0
-File Integrity,Out of Band Verifier.php,0.739832356610461,0,0,1,0
-File Integrity,SOAP Web Service.php,0.7386745837289055,0,0,1,0
-File Integrity,Access Control Architecture.php,0.7384756982323339,0,0,1,0
-File Integrity,General Authenticator Security.php,0.7382571737400226,0,0,1,0
-File Integrity,Other Access Control Considerations.php,0.7371619296299774,0,0,1,0
-File Integrity,Cryptographic Verifier.php,0.7335908787115405,0,0,1,0
-File Integrity,Code Integrity.php,0.7327874242385086,0,0,1,0
-File Integrity,Federated Re-authentication.php,0.7326904105438545,0,0,1,0
-File Integrity,Client Communication Security.php,0.7288999439443506,0,0,1,0
-File Integrity,Fundamental Session Management Security.php,0.7279158654887381,0,0,1,0
-File Integrity,Credential Recovery.php,0.7276271678070936,0,0,1,0
-File Integrity,Session Termination.php,0.7275088370569741,0,0,1,0
-File Integrity,Business Logic Architecture.php,0.7259365765367091,0,0,1,0
-File Integrity,Look-up Secret Verifier.php,0.7243001844479013,0,0,1,0
-File Integrity,Output Encoding and Injection Prevention.php,0.7240118575131353,0,0,1,0
-File Integrity,Credential Storage.php,0.7205912456390116,0,0,1,0
-File Integrity,Token-based Session Management.php,0.7205400806536613,0,0,1,0
-File Integrity,Random Values.php,0.7199164537183633,0,0,1,0
-File Integrity,Malicious Software Architecture.php,0.7187639649825772,0,0,1,0
-File Integrity,Authenticator Lifecycle.php,0.7165321819976369,0,0,1,0
-File Integrity,One Time Verifier.php,0.715692502571748,0,0,1,0
-File Integrity,Service Authentication.php,0.7145006373517768,0,0,1,0
-File Integrity,Business Logic Security.php,0.7114195513828349,0,0,1,0
-File Integrity,Secret Management.php,0.7107151971568478,0,0,1,0
-File Integrity,Error Handling.php,0.7092693747025385,0,0,1,0
-File Integrity,GraphQL.php,0.7092097149034549,0,0,1,0
-File Integrity,Authentication Architecture.php,0.7063072698387812,0,0,1,0
+File Integrity,File Integrity.php,0.7781663078396754,0,0,0,1
+File Integrity,Data Protection and Privacy Architecture.php,0.7730117354384497,0,1,0,0
+File Integrity,Malicious Code Search.php,0.7716715914363842,0,1,0,0
+File Integrity,Generic Web Service Security.php,0.7686307631877617,0,1,0,0
+File Integrity,"Memory, String, and Unmanaged Code.php",0.7683424533029866,0,1,0,0
+File Integrity,Input and Output Architecture.php,0.7664986612075068,0,1,0,0
+File Integrity,Dependency.php,0.7644809848642633,0,1,0,0
+File Integrity,Configuration Architecture.php,0.7642791147432101,0,1,0,0
+File Integrity,RESTful Web Service.php,0.7635416720975632,0,1,0,0
+File Integrity,Cryptographic Architecture.php,0.7632509642735501,0,1,0,0
+File Integrity,General Data Protection.php,0.7614313948226521,0,1,0,0
+File Integrity,HTTP Request Header Validation.php,0.7607637841230976,0,1,0,0
+File Integrity,Input Validation.php,0.7587706663058711,0,1,0,0
+File Integrity,Server Communication Security.php,0.7580542503666063,0,1,0,0
+File Integrity,Build and Deploy.php,0.757670976964779,0,1,0,0
+File Integrity,Log Protection.php,0.7569640253345351,0,1,0,0
+File Integrity,Log Processing.php,0.755581770102354,0,1,0,0
+File Integrity,File Upload.php,0.7545303784639386,0,1,0,0
+File Integrity,Algorithms.php,0.7535853203968759,0,1,0,0
+File Integrity,Log Content.php,0.7534432761242434,0,1,0,0
+File Integrity,Data Classification.php,0.7530365897160758,0,1,0,0
+File Integrity,SSRF Protection.php,0.7527813455958741,0,1,0,0
+File Integrity,Secure File Upload Architecture.php,0.7521360225293152,0,1,0,0
+File Integrity,Cookie-based Session Management.php,0.7507769246923399,0,1,0,0
+File Integrity,Secure Software Development Lifecycle.php,0.7498351890906904,0,1,0,0
+File Integrity,Operation Level Access Control Operation Level Access Control.php,0.7483678291870026,0,1,0,0
+File Integrity,Defenses Against Session Management Exploits.php,0.747267568291277,0,1,0,0
+File Integrity,Communications Architecture.php,0.7456792359593878,0,1,0,0
+File Integrity,General Access Control Design.php,0.7449897018995939,0,1,0,0
+File Integrity,Password Security.php,0.7432183998055106,0,1,0,0
+File Integrity,"Errors, Logging and Auditing Architecture.php",0.742894274078574,0,1,0,0
+File Integrity,Sanitization and Sandboxing.php,0.7402752070285371,0,1,0,0
+File Integrity,Session Binding.php,0.7400798995819647,0,1,0,0
+File Integrity,Out of Band Verifier.php,0.739832356610461,0,1,0,0
+File Integrity,SOAP Web Service.php,0.7386745837289055,0,1,0,0
+File Integrity,Access Control Architecture.php,0.7384756982323339,0,1,0,0
+File Integrity,General Authenticator Security.php,0.7382571737400226,0,1,0,0
+File Integrity,Other Access Control Considerations.php,0.7371619296299774,0,1,0,0
+File Integrity,Cryptographic Verifier.php,0.7335908787115405,0,1,0,0
+File Integrity,Code Integrity.php,0.7327874242385086,0,1,0,0
+File Integrity,Federated Re-authentication.php,0.7326904105438545,0,1,0,0
+File Integrity,Client Communication Security.php,0.7288999439443506,0,1,0,0
+File Integrity,Fundamental Session Management Security.php,0.7279158654887381,0,1,0,0
+File Integrity,Credential Recovery.php,0.7276271678070936,0,1,0,0
+File Integrity,Session Termination.php,0.7275088370569741,0,1,0,0
+File Integrity,Business Logic Architecture.php,0.7259365765367091,0,1,0,0
+File Integrity,Look-up Secret Verifier.php,0.7243001844479013,0,1,0,0
+File Integrity,Output Encoding and Injection Prevention.php,0.7240118575131353,0,1,0,0
+File Integrity,Credential Storage.php,0.7205912456390116,0,1,0,0
+File Integrity,Token-based Session Management.php,0.7205400806536613,0,1,0,0
+File Integrity,Random Values.php,0.7199164537183633,0,1,0,0
+File Integrity,Malicious Software Architecture.php,0.7187639649825772,0,1,0,0
+File Integrity,Authenticator Lifecycle.php,0.7165321819976369,0,1,0,0
+File Integrity,One Time Verifier.php,0.715692502571748,0,1,0,0
+File Integrity,Service Authentication.php,0.7145006373517768,0,1,0,0
+File Integrity,Business Logic Security.php,0.7114195513828349,0,1,0,0
+File Integrity,Secret Management.php,0.7107151971568478,0,1,0,0
+File Integrity,Error Handling.php,0.7092693747025385,0,1,0,0
+File Integrity,GraphQL.php,0.7092097149034549,0,1,0,0
+File Integrity,Authentication Architecture.php,0.7063072698387812,0,1,0,0
 File Storage,Application Integrity.php,0.8490969732177767,0,1,0,0
 File Storage,File Storage.php,0.8410661249214733,1,0,0,0
 File Storage,"Memory, String, and Unmanaged Code.php",0.8334299865199482,0,0,1,0
@@ -2092,52 +2092,52 @@ HTTP Security Headers,Unintended Security Disclosure.php,0.7806415869476939,0,1,
 HTTP Security Headers,Configuration Architecture.php,0.7776777813191438,0,1,0,0
 HTTP Security Headers,Build and Deploy.php,0.7773188696168498,0,1,0,0
 HTTP Security Headers,Operation Level Access Control Operation Level Access Control.php,0.7770754615602679,0,1,0,0
-HTTP Security Headers,HTTP Security Headers.php,0.7767288588193205,1,0,0,0
-HTTP Security Headers,Sanitization and Sandboxing.php,0.7760570542373908,0,0,1,0
-HTTP Security Headers,SSRF Protection.php,0.7759747875702611,0,0,1,0
-HTTP Security Headers,Communications Architecture.php,0.7736742279666695,0,0,1,0
-HTTP Security Headers,Token-based Session Management.php,0.7699715889238525,0,0,1,0
-HTTP Security Headers,Application Integrity.php,0.7686378661493756,0,0,1,0
-HTTP Security Headers,GraphQL.php,0.7667936214125604,0,0,1,0
-HTTP Security Headers,General Access Control Design.php,0.7650839174365067,0,0,1,0
-HTTP Security Headers,File Execution.php,0.7644125723567012,0,0,1,0
-HTTP Security Headers,File Download.php,0.7600629701086328,0,0,1,0
-HTTP Security Headers,Cryptographic Architecture.php,0.7582942048173652,0,0,1,0
-HTTP Security Headers,Service Authentication.php,0.7562859643043567,0,0,1,0
-HTTP Security Headers,File Storage.php,0.7560511523177095,0,0,1,0
-HTTP Security Headers,"Memory, String, and Unmanaged Code.php",0.7543110304097264,0,0,1,0
-HTTP Security Headers,Log Content.php,0.754054426313336,0,0,1,0
-HTTP Security Headers,Log Processing.php,0.7517853893323017,0,0,1,0
-HTTP Security Headers,File Integrity.php,0.7511423130405803,0,0,1,0
-HTTP Security Headers,Secure Software Development Lifecycle.php,0.7481628205723605,0,0,1,0
-HTTP Security Headers,Dependency.php,0.7479655159461474,0,0,1,0
-HTTP Security Headers,Malicious Code Search.php,0.7478750143457031,0,0,1,0
-HTTP Security Headers,Session Termination.php,0.7475135951671688,0,0,1,0
-HTTP Security Headers,Other Access Control Considerations.php,0.7457817404451463,0,0,1,0
-HTTP Security Headers,"Errors, Logging and Auditing Architecture.php",0.7441911376890875,0,0,1,0
-HTTP Security Headers,Access Control Architecture.php,0.7441583382269272,0,0,1,0
-HTTP Security Headers,Cryptographic Verifier.php,0.7438872389934676,0,0,1,0
-HTTP Security Headers,Credential Recovery.php,0.7386621282885764,0,0,1,0
-HTTP Security Headers,Look-up Secret Verifier.php,0.7379892292324267,0,0,1,0
-HTTP Security Headers,General Authenticator Security.php,0.736748582628223,0,0,1,0
-HTTP Security Headers,Authenticator Lifecycle.php,0.7366968817147677,0,0,1,0
-HTTP Security Headers,Out of Band Verifier.php,0.7362816655349406,0,0,1,0
-HTTP Security Headers,Algorithms.php,0.7350171807599208,0,0,1,0
-HTTP Security Headers,Data Protection and Privacy Architecture.php,0.7345654081556864,0,0,1,0
-HTTP Security Headers,Log Protection.php,0.7341133001019224,0,0,1,0
-HTTP Security Headers,Authentication Architecture.php,0.732169567205011,0,0,1,0
-HTTP Security Headers,Malicious Software Architecture.php,0.7294881558875657,0,0,1,0
-HTTP Security Headers,Password Security.php,0.7294541677654118,0,0,1,0
-HTTP Security Headers,Code Integrity.php,0.7294531784316678,0,0,1,0
-HTTP Security Headers,Business Logic Architecture.php,0.7279346288617141,0,0,1,0
-HTTP Security Headers,Random Values.php,0.7252809245953065,0,0,1,0
-HTTP Security Headers,Data Classification.php,0.7230283579458053,0,0,1,0
-HTTP Security Headers,Credential Storage.php,0.7209422008580221,0,0,1,0
-HTTP Security Headers,Secret Management.php,0.718326544630745,0,0,1,0
-HTTP Security Headers,Error Handling.php,0.7125106233143297,0,0,1,0
-HTTP Security Headers,One Time Verifier.php,0.7013926873265589,0,0,1,0
-HTTP Security Headers,File Upload.php,0.6998011225335745,0,0,1,0
-HTTP Security Headers,Business Logic Security.php,0.6912207538119987,0,0,1,0
+HTTP Security Headers,HTTP Security Headers.php,0.7767288588193205,0,0,0,1
+HTTP Security Headers,Sanitization and Sandboxing.php,0.7760570542373908,0,1,0,0
+HTTP Security Headers,SSRF Protection.php,0.7759747875702611,0,1,0,0
+HTTP Security Headers,Communications Architecture.php,0.7736742279666695,0,1,0,0
+HTTP Security Headers,Token-based Session Management.php,0.7699715889238525,0,1,0,0
+HTTP Security Headers,Application Integrity.php,0.7686378661493756,0,1,0,0
+HTTP Security Headers,GraphQL.php,0.7667936214125604,0,1,0,0
+HTTP Security Headers,General Access Control Design.php,0.7650839174365067,0,1,0,0
+HTTP Security Headers,File Execution.php,0.7644125723567012,0,1,0,0
+HTTP Security Headers,File Download.php,0.7600629701086328,0,1,0,0
+HTTP Security Headers,Cryptographic Architecture.php,0.7582942048173652,0,1,0,0
+HTTP Security Headers,Service Authentication.php,0.7562859643043567,0,1,0,0
+HTTP Security Headers,File Storage.php,0.7560511523177095,0,1,0,0
+HTTP Security Headers,"Memory, String, and Unmanaged Code.php",0.7543110304097264,0,1,0,0
+HTTP Security Headers,Log Content.php,0.754054426313336,0,1,0,0
+HTTP Security Headers,Log Processing.php,0.7517853893323017,0,1,0,0
+HTTP Security Headers,File Integrity.php,0.7511423130405803,0,1,0,0
+HTTP Security Headers,Secure Software Development Lifecycle.php,0.7481628205723605,0,1,0,0
+HTTP Security Headers,Dependency.php,0.7479655159461474,0,1,0,0
+HTTP Security Headers,Malicious Code Search.php,0.7478750143457031,0,1,0,0
+HTTP Security Headers,Session Termination.php,0.7475135951671688,0,1,0,0
+HTTP Security Headers,Other Access Control Considerations.php,0.7457817404451463,0,1,0,0
+HTTP Security Headers,"Errors, Logging and Auditing Architecture.php",0.7441911376890875,0,1,0,0
+HTTP Security Headers,Access Control Architecture.php,0.7441583382269272,0,1,0,0
+HTTP Security Headers,Cryptographic Verifier.php,0.7438872389934676,0,1,0,0
+HTTP Security Headers,Credential Recovery.php,0.7386621282885764,0,1,0,0
+HTTP Security Headers,Look-up Secret Verifier.php,0.7379892292324267,0,1,0,0
+HTTP Security Headers,General Authenticator Security.php,0.736748582628223,0,1,0,0
+HTTP Security Headers,Authenticator Lifecycle.php,0.7366968817147677,0,1,0,0
+HTTP Security Headers,Out of Band Verifier.php,0.7362816655349406,0,1,0,0
+HTTP Security Headers,Algorithms.php,0.7350171807599208,0,1,0,0
+HTTP Security Headers,Data Protection and Privacy Architecture.php,0.7345654081556864,0,1,0,0
+HTTP Security Headers,Log Protection.php,0.7341133001019224,0,1,0,0
+HTTP Security Headers,Authentication Architecture.php,0.732169567205011,0,1,0,0
+HTTP Security Headers,Malicious Software Architecture.php,0.7294881558875657,0,1,0,0
+HTTP Security Headers,Password Security.php,0.7294541677654118,0,1,0,0
+HTTP Security Headers,Code Integrity.php,0.7294531784316678,0,1,0,0
+HTTP Security Headers,Business Logic Architecture.php,0.7279346288617141,0,1,0,0
+HTTP Security Headers,Random Values.php,0.7252809245953065,0,1,0,0
+HTTP Security Headers,Data Classification.php,0.7230283579458053,0,1,0,0
+HTTP Security Headers,Credential Storage.php,0.7209422008580221,0,1,0,0
+HTTP Security Headers,Secret Management.php,0.718326544630745,0,1,0,0
+HTTP Security Headers,Error Handling.php,0.7125106233143297,0,1,0,0
+HTTP Security Headers,One Time Verifier.php,0.7013926873265589,0,1,0,0
+HTTP Security Headers,File Upload.php,0.6998011225335745,0,1,0,0
+HTTP Security Headers,Business Logic Security.php,0.6912207538119987,0,1,0,0
 Input Validation,Sensitive Private Data.php,0.8451903651863609,0,1,0,0
 Input Validation,Generic Web Service Security.php,0.8392622501689312,0,1,0,0
 Input Validation,Input Validation.php,0.8323538712087858,1,0,0,0
@@ -2588,39 +2588,39 @@ Malicious Code Search,File Upload.php,0.7357595281980284,0,0,1,0
 "Memory, String, and Unmanaged Code",Session Binding.php,0.7443285706986386,0,1,0,0
 "Memory, String, and Unmanaged Code",Service Authentication.php,0.7440554455164211,0,1,0,0
 "Memory, String, and Unmanaged Code",Code Integrity.php,0.7438667690514362,0,1,0,0
-"Memory, String, and Unmanaged Code","Memory, String, and Unmanaged Code.php",0.7427618018557325,1,0,0,0
-"Memory, String, and Unmanaged Code",Data Classification.php,0.7426103253858483,0,0,1,0
-"Memory, String, and Unmanaged Code",Unintended Security Disclosure.php,0.7412330462144582,0,0,1,0
-"Memory, String, and Unmanaged Code",HTTP Security Headers.php,0.7408535011301275,0,0,1,0
-"Memory, String, and Unmanaged Code",General Authenticator Security.php,0.7397643736738295,0,0,1,0
-"Memory, String, and Unmanaged Code",Application Integrity.php,0.7379163305697607,0,0,1,0
-"Memory, String, and Unmanaged Code",Credential Recovery.php,0.7377256117282922,0,0,1,0
-"Memory, String, and Unmanaged Code",Look-up Secret Verifier.php,0.7363968802427037,0,0,1,0
-"Memory, String, and Unmanaged Code",Business Logic Security.php,0.7362115691014643,0,0,1,0
-"Memory, String, and Unmanaged Code",Other Access Control Considerations.php,0.7353499717822696,0,0,1,0
-"Memory, String, and Unmanaged Code",Server Communication Security.php,0.7352142579545818,0,0,1,0
-"Memory, String, and Unmanaged Code",SOAP Web Service.php,0.7352033065816155,0,0,1,0
-"Memory, String, and Unmanaged Code",SSRF Protection.php,0.7341502314165086,0,0,1,0
-"Memory, String, and Unmanaged Code",File Storage.php,0.7340490323905171,0,0,1,0
-"Memory, String, and Unmanaged Code",Business Logic Architecture.php,0.7333799072414862,0,0,1,0
-"Memory, String, and Unmanaged Code",Fundamental Session Management Security.php,0.7333723653438768,0,0,1,0
-"Memory, String, and Unmanaged Code",Secure File Upload Architecture.php,0.7326669263187505,0,0,1,0
-"Memory, String, and Unmanaged Code",Client Communication Security.php,0.7314420755458437,0,0,1,0
-"Memory, String, and Unmanaged Code",Secret Management.php,0.7308252685869857,0,0,1,0
-"Memory, String, and Unmanaged Code",Communications Architecture.php,0.7305089101100097,0,0,1,0
-"Memory, String, and Unmanaged Code",One Time Verifier.php,0.7301774718188352,0,0,1,0
-"Memory, String, and Unmanaged Code",File Download.php,0.730057750770998,0,0,1,0
-"Memory, String, and Unmanaged Code",HTTP Request Header Validation.php,0.7299241861399193,0,0,1,0
-"Memory, String, and Unmanaged Code",Session Termination.php,0.7275185575105296,0,0,1,0
-"Memory, String, and Unmanaged Code",Dependency.php,0.7264338371195769,0,0,1,0
-"Memory, String, and Unmanaged Code",File Integrity.php,0.7202808728896724,0,0,1,0
-"Memory, String, and Unmanaged Code",Malicious Software Architecture.php,0.719999777898684,0,0,1,0
-"Memory, String, and Unmanaged Code",Authentication Architecture.php,0.719552913801895,0,0,1,0
-"Memory, String, and Unmanaged Code",Credential Storage.php,0.7194303685296337,0,0,1,0
-"Memory, String, and Unmanaged Code",Federated Re-authentication.php,0.7193000983600152,0,0,1,0
-"Memory, String, and Unmanaged Code",File Upload.php,0.7148639596364933,0,0,1,0
-"Memory, String, and Unmanaged Code",Token-based Session Management.php,0.7088064455945708,0,0,1,0
-"Memory, String, and Unmanaged Code",GraphQL.php,0.6971363041430952,0,0,1,0
+"Memory, String, and Unmanaged Code","Memory, String, and Unmanaged Code.php",0.7427618018557325,0,0,0,1
+"Memory, String, and Unmanaged Code",Data Classification.php,0.7426103253858483,0,1,0,0
+"Memory, String, and Unmanaged Code",Unintended Security Disclosure.php,0.7412330462144582,0,1,0,0
+"Memory, String, and Unmanaged Code",HTTP Security Headers.php,0.7408535011301275,0,1,0,0
+"Memory, String, and Unmanaged Code",General Authenticator Security.php,0.7397643736738295,0,1,0,0
+"Memory, String, and Unmanaged Code",Application Integrity.php,0.7379163305697607,0,1,0,0
+"Memory, String, and Unmanaged Code",Credential Recovery.php,0.7377256117282922,0,1,0,0
+"Memory, String, and Unmanaged Code",Look-up Secret Verifier.php,0.7363968802427037,0,1,0,0
+"Memory, String, and Unmanaged Code",Business Logic Security.php,0.7362115691014643,0,1,0,0
+"Memory, String, and Unmanaged Code",Other Access Control Considerations.php,0.7353499717822696,0,1,0,0
+"Memory, String, and Unmanaged Code",Server Communication Security.php,0.7352142579545818,0,1,0,0
+"Memory, String, and Unmanaged Code",SOAP Web Service.php,0.7352033065816155,0,1,0,0
+"Memory, String, and Unmanaged Code",SSRF Protection.php,0.7341502314165086,0,1,0,0
+"Memory, String, and Unmanaged Code",File Storage.php,0.7340490323905171,0,1,0,0
+"Memory, String, and Unmanaged Code",Business Logic Architecture.php,0.7333799072414862,0,1,0,0
+"Memory, String, and Unmanaged Code",Fundamental Session Management Security.php,0.7333723653438768,0,1,0,0
+"Memory, String, and Unmanaged Code",Secure File Upload Architecture.php,0.7326669263187505,0,1,0,0
+"Memory, String, and Unmanaged Code",Client Communication Security.php,0.7314420755458437,0,1,0,0
+"Memory, String, and Unmanaged Code",Secret Management.php,0.7308252685869857,0,1,0,0
+"Memory, String, and Unmanaged Code",Communications Architecture.php,0.7305089101100097,0,1,0,0
+"Memory, String, and Unmanaged Code",One Time Verifier.php,0.7301774718188352,0,1,0,0
+"Memory, String, and Unmanaged Code",File Download.php,0.730057750770998,0,1,0,0
+"Memory, String, and Unmanaged Code",HTTP Request Header Validation.php,0.7299241861399193,0,1,0,0
+"Memory, String, and Unmanaged Code",Session Termination.php,0.7275185575105296,0,1,0,0
+"Memory, String, and Unmanaged Code",Dependency.php,0.7264338371195769,0,1,0,0
+"Memory, String, and Unmanaged Code",File Integrity.php,0.7202808728896724,0,1,0,0
+"Memory, String, and Unmanaged Code",Malicious Software Architecture.php,0.719999777898684,0,1,0,0
+"Memory, String, and Unmanaged Code",Authentication Architecture.php,0.719552913801895,0,1,0,0
+"Memory, String, and Unmanaged Code",Credential Storage.php,0.7194303685296337,0,1,0,0
+"Memory, String, and Unmanaged Code",Federated Re-authentication.php,0.7193000983600152,0,1,0,0
+"Memory, String, and Unmanaged Code",File Upload.php,0.7148639596364933,0,1,0,0
+"Memory, String, and Unmanaged Code",Token-based Session Management.php,0.7088064455945708,0,1,0,0
+"Memory, String, and Unmanaged Code",GraphQL.php,0.6971363041430952,0,1,0,0
 One Time Verifier,One Time Verifier.php,0.8188112010521413,1,0,0,0
 One Time Verifier,Out of Band Verifier.php,0.7967392979321757,0,0,1,0
 One Time Verifier,Authenticator Lifecycle.php,0.7916607064348995,0,0,1,0
@@ -3893,42 +3893,42 @@ Unintended Security Disclosure,Server Communication Security.php,0.7602426641439
 Unintended Security Disclosure,Secure File Upload Architecture.php,0.7576880602186621,0,1,0,0
 Unintended Security Disclosure,SSRF Protection.php,0.7573215610503077,0,1,0,0
 Unintended Security Disclosure,Input Validation.php,0.7569619007705437,0,1,0,0
-Unintended Security Disclosure,Unintended Security Disclosure.php,0.7542820610698773,1,0,0,0
-Unintended Security Disclosure,Log Processing.php,0.7536941996367376,0,0,1,0
-Unintended Security Disclosure,Log Protection.php,0.7528580659180103,0,0,1,0
-Unintended Security Disclosure,Authentication Architecture.php,0.7523033324294022,0,0,1,0
-Unintended Security Disclosure,GraphQL.php,0.7512471674119783,0,0,1,0
-Unintended Security Disclosure,Log Content.php,0.7507829222472158,0,0,1,0
-Unintended Security Disclosure,Application Integrity.php,0.749876232237263,0,0,1,0
-Unintended Security Disclosure,Communications Architecture.php,0.7498646804576486,0,0,1,0
-Unintended Security Disclosure,File Execution.php,0.7491927370443252,0,0,1,0
-Unintended Security Disclosure,Federated Re-authentication.php,0.7488384864252129,0,0,1,0
-Unintended Security Disclosure,Other Access Control Considerations.php,0.7478669052031776,0,0,1,0
-Unintended Security Disclosure,Authenticator Lifecycle.php,0.7475767486379498,0,0,1,0
-Unintended Security Disclosure,File Storage.php,0.746262656925596,0,0,1,0
-Unintended Security Disclosure,General Authenticator Security.php,0.7460838178362261,0,0,1,0
-Unintended Security Disclosure,Session Termination.php,0.7449721952510189,0,0,1,0
-Unintended Security Disclosure,Token-based Session Management.php,0.7444684884555867,0,0,1,0
-Unintended Security Disclosure,HTTP Security Headers.php,0.7442751461232768,0,0,1,0
-Unintended Security Disclosure,"Memory, String, and Unmanaged Code.php",0.7430751156919809,0,0,1,0
-Unintended Security Disclosure,SOAP Web Service.php,0.7424237259915256,0,0,1,0
-Unintended Security Disclosure,Malicious Software Architecture.php,0.7405799021334931,0,0,1,0
-Unintended Security Disclosure,Cryptographic Architecture.php,0.7400490657136427,0,0,1,0
-Unintended Security Disclosure,Algorithms.php,0.7399801160715891,0,0,1,0
-Unintended Security Disclosure,Service Authentication.php,0.7351875342240908,0,0,1,0
-Unintended Security Disclosure,File Download.php,0.7332749447822582,0,0,1,0
-Unintended Security Disclosure,File Integrity.php,0.7319076594710657,0,0,1,0
-Unintended Security Disclosure,Out of Band Verifier.php,0.730454330754,0,0,1,0
-Unintended Security Disclosure,Cryptographic Verifier.php,0.7292525675540968,0,0,1,0
-Unintended Security Disclosure,Password Security.php,0.7284027586251438,0,0,1,0
-Unintended Security Disclosure,Data Protection and Privacy Architecture.php,0.7283339261516616,0,0,1,0
-Unintended Security Disclosure,Business Logic Security.php,0.7247329008449714,0,0,1,0
-Unintended Security Disclosure,Malicious Code Search.php,0.7243608693901931,0,0,1,0
-Unintended Security Disclosure,Credential Recovery.php,0.7205985912828714,0,0,1,0
-Unintended Security Disclosure,Data Classification.php,0.7195560478739796,0,0,1,0
-Unintended Security Disclosure,Random Values.php,0.7158681166562422,0,0,1,0
-Unintended Security Disclosure,Secret Management.php,0.711896745012393,0,0,1,0
-Unintended Security Disclosure,File Upload.php,0.7079200809100274,0,0,1,0
-Unintended Security Disclosure,Look-up Secret Verifier.php,0.7046173261146914,0,0,1,0
-Unintended Security Disclosure,One Time Verifier.php,0.6965128941574124,0,0,1,0
-Unintended Security Disclosure,Credential Storage.php,0.696160576245799,0,0,1,0
+Unintended Security Disclosure,Unintended Security Disclosure.php,0.7542820610698773,0,0,0,1
+Unintended Security Disclosure,Log Processing.php,0.7536941996367376,0,1,0,0
+Unintended Security Disclosure,Log Protection.php,0.7528580659180103,0,1,0,0
+Unintended Security Disclosure,Authentication Architecture.php,0.7523033324294022,0,1,0,0
+Unintended Security Disclosure,GraphQL.php,0.7512471674119783,0,1,0,0
+Unintended Security Disclosure,Log Content.php,0.7507829222472158,0,1,0,0
+Unintended Security Disclosure,Application Integrity.php,0.749876232237263,0,1,0,0
+Unintended Security Disclosure,Communications Architecture.php,0.7498646804576486,0,1,0,0
+Unintended Security Disclosure,File Execution.php,0.7491927370443252,0,1,0,0
+Unintended Security Disclosure,Federated Re-authentication.php,0.7488384864252129,0,1,0,0
+Unintended Security Disclosure,Other Access Control Considerations.php,0.7478669052031776,0,1,0,0
+Unintended Security Disclosure,Authenticator Lifecycle.php,0.7475767486379498,0,1,0,0
+Unintended Security Disclosure,File Storage.php,0.746262656925596,0,1,0,0
+Unintended Security Disclosure,General Authenticator Security.php,0.7460838178362261,0,1,0,0
+Unintended Security Disclosure,Session Termination.php,0.7449721952510189,0,1,0,0
+Unintended Security Disclosure,Token-based Session Management.php,0.7444684884555867,0,1,0,0
+Unintended Security Disclosure,HTTP Security Headers.php,0.7442751461232768,0,1,0,0
+Unintended Security Disclosure,"Memory, String, and Unmanaged Code.php",0.7430751156919809,0,1,0,0
+Unintended Security Disclosure,SOAP Web Service.php,0.7424237259915256,0,1,0,0
+Unintended Security Disclosure,Malicious Software Architecture.php,0.7405799021334931,0,1,0,0
+Unintended Security Disclosure,Cryptographic Architecture.php,0.7400490657136427,0,1,0,0
+Unintended Security Disclosure,Algorithms.php,0.7399801160715891,0,1,0,0
+Unintended Security Disclosure,Service Authentication.php,0.7351875342240908,0,1,0,0
+Unintended Security Disclosure,File Download.php,0.7332749447822582,0,1,0,0
+Unintended Security Disclosure,File Integrity.php,0.7319076594710657,0,1,0,0
+Unintended Security Disclosure,Out of Band Verifier.php,0.730454330754,0,1,0,0
+Unintended Security Disclosure,Cryptographic Verifier.php,0.7292525675540968,0,1,0,0
+Unintended Security Disclosure,Password Security.php,0.7284027586251438,0,1,0,0
+Unintended Security Disclosure,Data Protection and Privacy Architecture.php,0.7283339261516616,0,1,0,0
+Unintended Security Disclosure,Business Logic Security.php,0.7247329008449714,0,1,0,0
+Unintended Security Disclosure,Malicious Code Search.php,0.7243608693901931,0,1,0,0
+Unintended Security Disclosure,Credential Recovery.php,0.7205985912828714,0,1,0,0
+Unintended Security Disclosure,Data Classification.php,0.7195560478739796,0,1,0,0
+Unintended Security Disclosure,Random Values.php,0.7158681166562422,0,1,0,0
+Unintended Security Disclosure,Secret Management.php,0.711896745012393,0,1,0,0
+Unintended Security Disclosure,File Upload.php,0.7079200809100274,0,1,0,0
+Unintended Security Disclosure,Look-up Secret Verifier.php,0.7046173261146914,0,1,0,0
+Unintended Security Disclosure,One Time Verifier.php,0.6965128941574124,0,1,0,0
+Unintended Security Disclosure,Credential Storage.php,0.696160576245799,0,1,0,0
