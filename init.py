@@ -4,6 +4,7 @@ Get repo data from the endpoint
 import os
 import json
 import base64
+import logging
 import pandas as pd
 from dotenv import load_dotenv
 from celery import Celery
@@ -55,32 +56,36 @@ def decode_json_object(array):
 # Celery task
 @celery.task(bind=True)
 def background_code_matching(self, repo_files, repo_id):
-    job_id = self.request.id
-    repo_id = str(repo_id)
-    section_result = {}
-    build_embeddings(repo_files, repo_id)
-    
-    for section in owasp_df['section_name'].unique():
-        reqs_list = list(owasp_df[owasp_df['section_name'] == section]['req_description'])
-        req_str = ' '.join(reqs_list)
-        query = req_str
-        depth = get_total_files(repo_id)
-        results_ada = query_top_files(query, depth, repo_id)
-        results_specter = query_top_files_specter(query, depth, repo_id)
+    try:
+        job_id = self.request.id
+        repo_id = str(repo_id)
+        section_result = {}
+        build_embeddings(repo_files, repo_id)
         
-        common_files_with_avg_score = get_common_files_with_avg_score(results_ada, results_specter)
-        unique_model = get_unique_files(results_ada, results_specter)
-        result_dict = {
-            'common_files': common_files_with_avg_score,
-            'only_one_model': unique_model}
-        section_result[section] = result_dict
-    
-    # Save the section_result dictionary to a .json file
-    with open(f'section_result_{repo_id}.json', 'w') as json_file:
-        json.dump(section_result, json_file, indent=4)
-    # Notify Flask endpoint
-    #requests.get(f'http://localhost:5000/results/{job_id}')
-    return section_result
+        for section in owasp_df['section_name'].unique():
+            reqs_list = list(owasp_df[owasp_df['section_name'] == section]['req_description'])
+            req_str = ' '.join(reqs_list)
+            query = req_str
+            depth = get_total_files(repo_id)
+            results_ada = query_top_files(query, depth, repo_id)
+            results_specter = query_top_files_specter(query, depth, repo_id)
+            
+            common_files_with_avg_score = get_common_files_with_avg_score(results_ada, results_specter)
+            unique_model = get_unique_files(results_ada, results_specter)
+            result_dict = {
+                'common_files': common_files_with_avg_score,
+                'only_one_model': unique_model}
+            section_result[section] = result_dict
+        
+        # Save the section_result dictionary to a .json file
+        with open(f'section_result_{repo_id}.json', 'w') as json_file:
+            json.dump(section_result, json_file, indent=4)
+        # Notify Flask endpoint
+        #requests.get(f'http://localhost:5000/results/{job_id}')
+        return section_result
+    except Exception as e:
+        logging.error(f"Task failed: {e}")
+        raise self.retry(exc=e, countdown=60, max_retries=3)
 
 # Flask routes
 @app.route('/initiate_rag', methods=['POST'])
