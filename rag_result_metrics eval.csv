@@ -1,0 +1,58 @@
+section_name,TP,FP,TN,FN,precision,recall,f1_score,specificity,balanced_accuracy
+Algorithms,1,1,67,0,0.5,1.0,0.6666666666666666,0.9852941176470589,0.9926470588235294
+Application Integrity,0,28,40,1,0.0,0.0,,0.5882352941176471,0.29411764705882354
+Authenticator Lifecycle,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Build and Deploy,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Business Logic Security,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Client Communication Security,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Client-side Data Protection,0,9,59,1,0.0,0.0,,0.8676470588235294,0.4338235294117647
+Code Integrity,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Cookie-based Session Management,0,3,65,1,0.0,0.0,,0.9558823529411765,0.47794117647058826
+Credential Recovery,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Credential Storage,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Cryptographic Verifier,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Data Classification,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Defenses Against Session Management Exploits,0,7,61,1,0.0,0.0,,0.8970588235294118,0.4485294117647059
+Dependency,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Deserialization Prevention,0,6,62,1,0.0,0.0,,0.9117647058823529,0.45588235294117646
+Error Handling,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Federated Re-authentication,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+File Download,0,5,63,1,0.0,0.0,,0.9264705882352942,0.4632352941176471
+File Execution,1,1,67,0,0.5,1.0,0.6666666666666666,0.9852941176470589,0.9926470588235294
+File Integrity,0,9,59,1,0.0,0.0,,0.8676470588235294,0.4338235294117647
+File Storage,1,1,67,0,0.5,1.0,0.6666666666666666,0.9852941176470589,0.9926470588235294
+File Upload,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Fundamental Session Management Security,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+General Access Control Design,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+General Authenticator Security,1,1,67,0,0.5,1.0,0.6666666666666666,0.9852941176470589,0.9926470588235294
+General Data Protection,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Generic Web Service Security,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+GraphQL,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+HTTP Request Header Validation,1,2,66,0,0.3333333333333333,1.0,0.5,0.9705882352941176,0.9852941176470589
+HTTP Security Headers,0,23,45,1,0.0,0.0,,0.6617647058823529,0.33088235294117646
+Input Validation,1,2,66,0,0.3333333333333333,1.0,0.5,0.9705882352941176,0.9852941176470589
+Log Content,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Log Processing,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Log Protection,1,1,67,0,0.5,1.0,0.6666666666666666,0.9852941176470589,0.9926470588235294
+Look-up Secret Verifier,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Malicious Code Search,1,2,66,0,0.3333333333333333,1.0,0.5,0.9705882352941176,0.9852941176470589
+"Memory, String, and Unmanaged Code",0,36,32,1,0.0,0.0,,0.47058823529411764,0.23529411764705882
+One Time Verifier,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Operation Level Access Control,0,69,0,0,0.0,,,0.0,
+Other Access Control Considerations,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Out of Band Verifier,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Output Encoding and Injection Prevention,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Password Security,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+RESTful Web Service,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Random Values,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+SOAP Web Service,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+SSRF Protection,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Sanitization and Sandboxing,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Secret Management,1,1,67,0,0.5,1.0,0.6666666666666666,0.9852941176470589,0.9926470588235294
+Sensitive Private Data,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Server Communication Security,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Service Authentication,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Session Binding,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Session Termination,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Token-based Session Management,1,0,68,0,1.0,1.0,1.0,1.0,1.0
+Unintended Security Disclosure,0,30,38,1,0.0,0.0,,0.5588235294117647,0.27941176470588236
