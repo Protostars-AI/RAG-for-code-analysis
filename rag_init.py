@@ -106,9 +106,11 @@ def get_results(task_id):
             'status': 'Pending...'
         }
     elif task.state != 'FAILURE':
+        # requests.post(f'http://localhost:5000/results/{job_id}')
         response = {
             'state': task.state,
-            'result': task.result
+            'result': {"rag_output" :task.result,
+                       "repo": task.args[0]}
         }
     else:
         response = {
