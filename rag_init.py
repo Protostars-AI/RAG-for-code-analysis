@@ -3,8 +3,10 @@ Get repo data from the endpoint
 """
 import os
 import json
+import time
 import base64
 import logging
+import requests
 import pandas as pd
 from dotenv import load_dotenv
 from celery import Celery
@@ -81,11 +83,24 @@ def background_code_matching(self, repo_files, repo_id):
         with open(f'section_result_{repo_id}.json', 'w') as json_file:
             json.dump(section_result, json_file, indent=4)
         # Notify Flask endpoint
-        #requests.get(f'http://localhost:5000/results/{job_id}')
-        return section_result
+        data = {"rag_output" :self.result,
+                "repo_files": self.args[0]}
+        r1 = requests.post(f'https://dev.code-compliance.protostars.ai/code-compliance', json=data)
+        code_comp_task_id = json.loads(r1.text)["task_id"] # get task id from the response
+        logging.info(f"Response from code compliance success with task id: {code_comp_task_id}")
+        r2 = requests.get(f"https://dev.code-compliance.protostars.ai/get_results/{code_comp_task_id}")
+        state = json.loads(r2.text)["state"]
+        # loop and check the state of the task
+        while (state != 'SUCCESS'):
+            time.sleep(120)
+            r2 = requests.get(f"https://dev.code-compliance.protostars.ai/get_results/{code_comp_task_id}")
+            state = json.loads(r2.text)["state"]
+        # when its done send the results to the server endpoint
+        return r2.text
     except Exception as e:
         logging.error(f"Task failed: {e}")
         raise self.retry(exc=e, countdown=60, max_retries=3)
+    
 
 # Flask routes
 @app.route('/initiate_rag', methods=['POST'])
@@ -106,11 +121,9 @@ def get_results(task_id):
             'status': 'Pending...'
         }
     elif task.state != 'FAILURE':
-        # requests.post(f'http://localhost:5000/results/{job_id}')
         response = {
             'state': task.state,
-            'result': {"rag_output" :task.result,
-                       "repo": task.args[0]}
+            'result': task.result
         }
     else:
         response = {
