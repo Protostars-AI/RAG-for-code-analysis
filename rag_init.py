@@ -57,10 +57,11 @@ def decode_json_object(array):
 
 # Celery task
 @celery.task(bind=True)
-def background_code_matching(self, repo_files, repo_id):
+def background_code_matching(self, repo, repo_id):
     try:
         job_id = self.request.id
         repo_id = str(repo_id)
+        repo_files = decode_json_object(repo)
         section_result = {}
         build_embeddings(repo_files, repo_id)
         
@@ -108,8 +109,7 @@ def initiate():
     data = request.json
     repo = data['repository_tree']
     repo_id = data['id']
-    repo_files = decode_json_object(repo)
-    job = background_code_matching.apply_async(args=(repo_files,repo_id))
+    job = background_code_matching.apply_async(args=(repo,repo_id))
     return jsonify({'job_id': job.id}), 202
 
 @app.route('/results_rag/<task_id>', methods=['GET'])
