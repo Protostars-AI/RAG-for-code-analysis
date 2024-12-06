@@ -56,7 +56,7 @@ def decode_json_object(array):
     return files
 
 # Celery task
-@celery.task(bind=True)
+@celery.task(bind=True, max_retries=0)
 def background_code_matching(self, repo, repo_id):
     try:
         job_id = self.request.id
@@ -83,24 +83,24 @@ def background_code_matching(self, repo, repo_id):
         # Save the section_result dictionary to a .json file
         with open(f'section_result_{repo_id}.json', 'w') as json_file:
             json.dump(section_result, json_file, indent=4)
-        # Notify Flask endpoint
-        data = {"rag_output" :self.result,
-                "repo_files": self.args[0]}
+        rag_output = section_result
+        data = {"rag_output" :rag_output,
+                "repo_files": repo}
         r1 = requests.post(f'https://dev.code-compliance.protostars.ai/code-compliance', json=data)
-        code_comp_task_id = json.loads(r1.text)["task_id"] # get task id from the response
+        code_comp_task_id = json.loads(r1.text)['task_id'] # get task id from the response
         logging.info(f"Response from code compliance success with task id: {code_comp_task_id}")
         r2 = requests.get(f"https://dev.code-compliance.protostars.ai/get_results/{code_comp_task_id}")
-        state = json.loads(r2.text)["state"]
+        state = json.loads(r2.text)['state']
         # loop and check the state of the task
         while (state != 'SUCCESS'):
             time.sleep(120)
             r2 = requests.get(f"https://dev.code-compliance.protostars.ai/get_results/{code_comp_task_id}")
-            state = json.loads(r2.text)["state"]
+            state = json.loads(r2.text)['state']
         # when its done send the results to the server endpoint
-        return r2.text
+        return json.loads(r2.text)['result']
     except Exception as e:
         logging.error(f"Task failed: {e}")
-        raise self.retry(exc=e, countdown=60, max_retries=3)
+        raise self.retry(exc=e, countdown=60, max_retries=0)
     
 
 # Flask routes
