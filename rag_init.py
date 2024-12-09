@@ -7,6 +7,7 @@ import time
 import base64
 import logging
 import requests
+import datetime
 import pandas as pd
 from dotenv import load_dotenv
 from celery import Celery
@@ -58,6 +59,7 @@ def decode_json_object(array):
 # Celery task
 @celery.task(bind=True, max_retries=0)
 def background_code_matching(self, repo, repo_id):
+    logging.info(f"[{datetime.datetime.now()}]Task initiated with job id: {self.request.id}")
     try:
         job_id = self.request.id
         repo_id = str(repo_id)
