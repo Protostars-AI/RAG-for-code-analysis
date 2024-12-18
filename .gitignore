@@ -6,7 +6,3 @@ __pycache__/
 *.ann
 index_*.txt
 *.json
-notebook.ipynb
-building_index.py
-llama_index_buddy.py
-search_ollama.py
