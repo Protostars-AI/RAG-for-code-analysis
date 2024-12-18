@@ -112,7 +112,7 @@ def initiate():
     repo = data['repository_tree']
     repo_id = data['id']
     job = background_code_matching.apply_async(args=(repo,repo_id))
-    return jsonify({'job_id': job.id}), 202
+    return jsonify({'task_id': job.id}), 202
 
 @app.route('/results_rag/<task_id>', methods=['GET'])
 def get_results(task_id):
