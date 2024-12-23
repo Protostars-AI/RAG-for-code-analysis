@@ -89,8 +89,9 @@ def background_code_matching(self, repo, repo_id):
         data = {"rag_output" :rag_output,
                 "repo_files": repo}
         r1 = requests.post(f'https://dev.code-compliance.protostars.ai/code-compliance', json=data)
+        logging.info(f"Response from code compliance: {r1.text}")
         code_comp_task_id = json.loads(r1.text)['task_id'] # get task id from the response
-        logging.info(f"Response from code compliance success with task id: {code_comp_task_id}")
+        logging.info(f"Code Compliance initiated with task id: {code_comp_task_id}")
         r2 = requests.get(f"https://dev.code-compliance.protostars.ai/get_results/{code_comp_task_id}")
         state = json.loads(r2.text)['state']
         # loop and check the state of the task
