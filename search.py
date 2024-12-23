@@ -40,7 +40,7 @@ def query_top_files(query, top_n, name):
     query_embedding = get_embeddings_for_text(query)
     # Search in the Annoy index
     indices, distances = t.get_nns_by_vector(query_embedding, top_n, include_distances=True)
-    similarities = [math.cos(d) for d in distances if math.cos(d) > 0.5]     # filter out the similarity score to include only scores above 0.5
+    similarities = [math.cos(d) for d in distances]     # filter out the similarity score to include only scores above 0.5
     # Fetch file paths for these indices
     files = [(index_map[idx], dist) for idx, dist in zip(indices, similarities)]
     return files
@@ -54,7 +54,7 @@ def query_top_files_specter(query, top_n, name):    # we can query total_vectors
     query_embedding = model.encode(query)
     # Search in the Annoy index
     indices, distances = t.get_nns_by_vector(query_embedding, top_n, include_distances=True)
-    similarities = [math.cos(d) for d in distances if math.cos(d) > 0.5]     # filter out the similarity score to include only scores above 0.5
+    similarities = [math.cos(d) for d in distances]     # filter out the similarity score to include only scores above 0.5
     # Fetch file paths for these indices
     files = [(index_map[idx], dist) for idx, dist in zip(indices, similarities)]
     return files
