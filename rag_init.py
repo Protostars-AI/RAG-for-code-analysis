@@ -120,8 +120,7 @@ def get_results(task_id):
     task = background_code_matching.AsyncResult(task_id)
     if task.state == 'PENDING':
         response = {
-            'state': task.state,
-            'status': 'Pending...'
+            'state': task.state
         }
     elif task.state != 'FAILURE':
         response = {
@@ -131,7 +130,7 @@ def get_results(task_id):
     else:
         response = {
             'state': task.state,
-            'status': str(task.info)  # this is the exception raised
+            'error': str(task.info)  # this is the exception raised
         }
     return jsonify(response)
 
