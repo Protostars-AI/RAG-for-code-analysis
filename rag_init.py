@@ -71,7 +71,7 @@ def background_code_matching(self, repo, repo_id):
             reqs_list = list(owasp_df[owasp_df['section_name'] == section]['req_description'])
             req_str = ' '.join(reqs_list)
             query = req_str
-            depth = get_total_files(repo_id)
+            depth = 5 #get_total_files(repo_id)
             results_ada = query_top_files(query, depth, repo_id)
             results_specter = query_top_files_specter(query, depth, repo_id)
             
@@ -86,6 +86,9 @@ def background_code_matching(self, repo, repo_id):
         with open(f'section_result_{repo_id}.json', 'w') as json_file:
             json.dump(section_result, json_file, indent=4)
         rag_output = section_result
+        # save rag output so I can test later
+        with open(f'rag_output_top_{depth}_{repo_id}.json', 'w') as json_file:
+            json.dump(rag_output, json_file, indent=4)
         data = {"rag_output" :rag_output,
                 "repo_files": repo}
         r1 = requests.post(f'https://dev.code-compliance.protostars.ai/code-compliance', json=data)
