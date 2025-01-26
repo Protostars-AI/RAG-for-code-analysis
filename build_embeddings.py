@@ -1,13 +1,21 @@
 import os
 from dotenv import load_dotenv
-from langchain_openai import OpenAIEmbeddings
+#from langchain_openai import OpenAIEmbeddings
+from langchain.embeddings.azure_openai import AzureOpenAIEmbeddings
 from annoy import AnnoyIndex
 from sentence_transformers import SentenceTransformer #, util
 
 # Load environment variables
 load_dotenv()
 
-embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+#embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+embeddings = AzureOpenAIEmbeddings(
+    deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+    model="text-embedding-ada-002",
+    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    openai_api_base=os.getenv("AZURE_OPENAI_ENDPOINT"),
+    openai_api_version="2023-05-15"  # Check the latest supported version for your setup
+)
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 def get_file_embeddings(file_name, file_content):

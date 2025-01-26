@@ -14,7 +14,8 @@ from celery import Celery
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from sentence_transformers import SentenceTransformer
-from langchain_openai import OpenAIEmbeddings
+#from langchain_openai import OpenAIEmbeddings
+from langchain.embeddings.azure_openai import AzureOpenAIEmbeddings
 from build_embeddings import build_embeddings, get_file_embeddings
 from search import get_total_files, query_top_files, query_top_files_specter, get_common_files_with_avg_score, get_unique_files
 
@@ -22,7 +23,14 @@ from search import get_total_files, query_top_files, query_top_files_specter, ge
 load_dotenv()
 
 # Initialize embeddings and model
-embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+#embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+embeddings = AzureOpenAIEmbeddings(
+    deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+    model="text-embedding-ada-002",
+    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    openai_api_base=os.getenv("AZURE_OPENAI_ENDPOINT"),
+    openai_api_version="2023-05-15"  # Check the latest supported version for your setup
+)
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 # Flask application setup
@@ -71,7 +79,7 @@ def background_code_matching(self, repo, repo_id):
             reqs_list = list(owasp_df[owasp_df['section_name'] == section]['req_description'])
             req_str = ' '.join(reqs_list)
             query = req_str
-            depth = get_total_files(repo_id)
+            depth = 5 #get_total_files(repo_id)
             results_ada = query_top_files(query, depth, repo_id)
             results_specter = query_top_files_specter(query, depth, repo_id)
             
@@ -86,6 +94,9 @@ def background_code_matching(self, repo, repo_id):
         with open(f'section_result_{repo_id}.json', 'w') as json_file:
             json.dump(section_result, json_file, indent=4)
         rag_output = section_result
+        # save rag output to a file
+        with open(f'rag_output_top_{depth}_{repo_id}.json', 'w') as json_file:
+            json.dump(rag_output, json_file, indent=4)
         data = {"rag_output" :rag_output,
                 "repo_files": repo}
         r1 = requests.post(f'https://dev.code-compliance.protostars.ai/code-compliance', json=data)
