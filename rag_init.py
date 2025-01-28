@@ -15,6 +15,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from sentence_transformers import SentenceTransformer
 from langchain_openai import OpenAIEmbeddings
+from azure_openai import AzureOpenAIEmbeddings
 from build_embeddings import build_embeddings, get_file_embeddings
 from search import get_total_files, query_top_files, query_top_files_specter, get_common_files_with_avg_score, get_unique_files
 
@@ -22,7 +23,14 @@ from search import get_total_files, query_top_files, query_top_files_specter, ge
 load_dotenv()
 
 # Initialize embeddings and model
-embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+#embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+embeddings = AzureOpenAIEmbeddings(
+    deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+    model="text-embedding-ada-002",
+    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    openai_api_base=os.getenv("AZURE_OPENAI_ENDPOINT"),
+    openai_api_version="2023-05-15"  # Check the latest supported version for your setup
+)
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 # Flask application setup

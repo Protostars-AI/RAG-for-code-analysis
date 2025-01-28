@@ -9,7 +9,14 @@ from sentence_transformers import SentenceTransformer
 # Load environment variables
 load_dotenv()
 
-embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+#embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+embeddings = AzureOpenAIEmbeddings(
+    deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+    model="text-embedding-ada-002",
+    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    openai_api_base=os.getenv("AZURE_OPENAI_ENDPOINT"),
+    openai_api_version="2023-05-15"  # Check the latest supported version for your setup
+)
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 EMBEDDING_DIM = 1536
