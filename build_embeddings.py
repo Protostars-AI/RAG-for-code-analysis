@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from langchain_openai import OpenAIEmbeddings
+from langchain.embeddings.azure_openai import AzureOpenAIEmbeddings
 from annoy import AnnoyIndex
 from sentence_transformers import SentenceTransformer #, util
 

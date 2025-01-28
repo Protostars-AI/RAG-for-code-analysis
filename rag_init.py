@@ -15,7 +15,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from sentence_transformers import SentenceTransformer
 from langchain_openai import OpenAIEmbeddings
-from azure_openai import AzureOpenAIEmbeddings
+from langchain.embeddings.azure_openai import AzureOpenAIEmbeddings
 from build_embeddings import build_embeddings, get_file_embeddings
 from search import get_total_files, query_top_files, query_top_files_specter, get_common_files_with_avg_score, get_unique_files
 
