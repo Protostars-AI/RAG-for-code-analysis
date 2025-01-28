@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
-from langchain_openai import OpenAIEmbeddings
-from langchain.embeddings.azure_openai import AzureOpenAIEmbeddings
+#from langchain_openai import OpenAIEmbeddings
+from openai import AzureOpenAI
 from annoy import AnnoyIndex
 from sentence_transformers import SentenceTransformer #, util
 
@@ -9,18 +9,17 @@ from sentence_transformers import SentenceTransformer #, util
 load_dotenv()
 
 #embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
-embeddings = AzureOpenAIEmbeddings(
-    deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
-    model="text-embedding-ada-002",
-    openai_api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-    openai_api_base=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    openai_api_version="2023-05-15"  # Check the latest supported version for your setup
+deployment_name=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+client = AzureOpenAI(
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version="2023-05-15",  # Check the latest supported version for your setup
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
 )
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 def get_file_embeddings(file_name, file_content):
     try:
-        ret = embeddings.embed_query(file_content)
+        ret = client.embeddings.create(input=file_content, model=deployment_name)
         return ret
     except Exception as e:
         print(f"Error in embedding file: {file_name} - {e}")
