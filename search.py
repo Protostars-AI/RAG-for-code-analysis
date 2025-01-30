@@ -1,6 +1,7 @@
 from interpreter import interpreter
 import os
 import math
+import logging
 from dotenv import load_dotenv
 #from langchain_openai import OpenAIEmbeddings
 from openai import AzureOpenAI
@@ -22,7 +23,8 @@ model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu
 EMBEDDING_DIM = 1536
 # Get query embeddings
 def get_embeddings_for_text(text):
-    return client.embeddings.create(input=text, model=deployment_name)
+    ret = client.embeddings.create(input=text, model=deployment_name)
+    return ret.data[0].embedding
 
 def load_index_map(name):
     index_map = {}

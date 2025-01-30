@@ -1,4 +1,5 @@
 import os
+import logging
 from dotenv import load_dotenv
 #from langchain_openai import OpenAIEmbeddings
 from openai import AzureOpenAI
@@ -20,7 +21,7 @@ model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu
 def get_file_embeddings(file_name, file_content):
     try:
         ret = client.embeddings.create(input=file_content, model=deployment_name)
-        return ret
+        return ret.data[0].embedding
     except Exception as e:
         print(f"Error in embedding file: {file_name} - {e}")
         return None
