@@ -24,7 +24,7 @@ load_dotenv()
 
 # Initialize embeddings and model
 #embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
-deployment_name=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+deployment_name=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),
     api_version="2023-05-15",  # Check the latest supported version for your setup
