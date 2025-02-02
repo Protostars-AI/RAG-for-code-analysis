@@ -6,3 +6,4 @@ __pycache__/
 *.ann
 index_*.txt
 *.json
+compare_rag_results.ipynb
