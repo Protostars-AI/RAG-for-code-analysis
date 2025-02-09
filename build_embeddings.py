@@ -1,19 +1,27 @@
 import os
+import logging
 from dotenv import load_dotenv
-from langchain_openai import OpenAIEmbeddings
+#from langchain_openai import OpenAIEmbeddings
+from openai import AzureOpenAI
 from annoy import AnnoyIndex
 from sentence_transformers import SentenceTransformer #, util
 
 # Load environment variables
 load_dotenv()
 
-embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+#embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+deployment_name=os.getenv("AZURE_DEPLOYMENT_NAME")
+client = AzureOpenAI(
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version="2023-05-15",  # Check the latest supported version for your setup
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+)
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 def get_file_embeddings(file_name, file_content):
     try:
-        ret = embeddings.embed_query(file_content)
-        return ret
+        ret = client.embeddings.create(input=file_content, model=deployment_name)
+        return ret.data[0].embedding
     except Exception as e:
         print(f"Error in embedding file: {file_name} - {e}")
         return None

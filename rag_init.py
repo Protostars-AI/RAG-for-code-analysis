@@ -15,6 +15,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from sentence_transformers import SentenceTransformer
 from langchain_openai import OpenAIEmbeddings
+from openai import AzureOpenAI
 from build_embeddings import build_embeddings, get_file_embeddings
 from search import get_total_files, query_top_files, query_top_files_specter, get_common_files_with_avg_score, get_unique_files
 
@@ -22,7 +23,13 @@ from search import get_total_files, query_top_files, query_top_files_specter, ge
 load_dotenv()
 
 # Initialize embeddings and model
-embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+#embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+deployment_name=os.getenv("AZURE_DEPLOYMENT_NAME")
+client = AzureOpenAI(
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version="2023-05-15",  # Check the latest supported version for your setup
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+)
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 # Flask application setup
@@ -86,6 +93,9 @@ def background_code_matching(self, repo, repo_id):
         with open(f'section_result_{repo_id}.json', 'w') as json_file:
             json.dump(section_result, json_file, indent=4)
         rag_output = section_result
+        # save rag output so I can test later
+        with open(f'rag_output_top_{depth}_{repo_id}.json', 'w') as json_file:
+            json.dump(rag_output, json_file, indent=4)
         data = {"rag_output" :rag_output,
                 "repo_files": repo}
         r1 = requests.post(f'https://code-compliance.protostars.ai/code-compliance', json=data)
@@ -119,8 +129,7 @@ def get_results(task_id):
     task = background_code_matching.AsyncResult(task_id)
     if task.state == 'PENDING':
         response = {
-            'state': task.state,
-            'status': 'Pending...'
+            'state': task.state
         }
     elif task.state != 'FAILURE':
         response = {
@@ -130,7 +139,7 @@ def get_results(task_id):
     else:
         response = {
             'state': task.state,
-            'status': str(task.info)  # this is the exception raised
+            'error': str(task.info)  # this is the exception raised
         }
     return jsonify(response)
 

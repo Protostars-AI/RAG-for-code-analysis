@@ -1,21 +1,30 @@
 from interpreter import interpreter
 import os
 import math
+import logging
 from dotenv import load_dotenv
-from langchain_openai import OpenAIEmbeddings
+#from langchain_openai import OpenAIEmbeddings
+from openai import AzureOpenAI
 from annoy import AnnoyIndex
 from sentence_transformers import SentenceTransformer
 
 # Load environment variables
 load_dotenv()
 
-embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+#embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
+deployment_name=os.getenv("AZURE_DEPLOYMENT_NAME")
+client = AzureOpenAI(
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version="2023-05-15",  # Check the latest supported version for your setup
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
+)
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
 EMBEDDING_DIM = 1536
 # Get query embeddings
 def get_embeddings_for_text(text):
-    return embeddings.embed_query(text)
+    ret = client.embeddings.create(input=text, model=deployment_name)
+    return ret.data[0].embedding
 
 def load_index_map(name):
     index_map = {}
@@ -40,7 +49,7 @@ def query_top_files(query, top_n, name):
     query_embedding = get_embeddings_for_text(query)
     # Search in the Annoy index
     indices, distances = t.get_nns_by_vector(query_embedding, top_n, include_distances=True)
-    similarities = [math.cos(d) for d in distances if math.cos(d) > 0.5]     # filter out the similarity score to include only scores above 0.5
+    similarities = [math.cos(d) for d in distances if d > 0.5]     # filter out the similarity score to include only scores above 0.5
     # Fetch file paths for these indices
     files = [(index_map[idx], dist) for idx, dist in zip(indices, similarities)]
     return files
@@ -54,7 +63,7 @@ def query_top_files_specter(query, top_n, name):    # we can query total_vectors
     query_embedding = model.encode(query)
     # Search in the Annoy index
     indices, distances = t.get_nns_by_vector(query_embedding, top_n, include_distances=True)
-    similarities = [math.cos(d) for d in distances if math.cos(d) > 0.5]     # filter out the similarity score to include only scores above 0.5
+    similarities = [math.cos(d) for d in distances if d > 0.5]     # filter out the similarity score to include only scores above 0.5
     # Fetch file paths for these indices
     files = [(index_map[idx], dist) for idx, dist in zip(indices, similarities)]
     return files
