@@ -46,7 +46,7 @@ def build_embeddings(repo_files, name):
             print ("No of files processed: " + str(i))
 
 
-    t = AnnoyIndex(1536, 'angular')
+    t = AnnoyIndex(3072, 'angular')
     t2 = AnnoyIndex(768, 'angular')
     index_map = {}
     i = 0
