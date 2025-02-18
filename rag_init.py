@@ -17,7 +17,7 @@ from sentence_transformers import SentenceTransformer
 from langchain_openai import OpenAIEmbeddings
 from openai import AzureOpenAI
 from build_embeddings import build_embeddings, get_file_embeddings
-from search import get_total_files, query_top_files, query_top_files_specter, get_common_files_with_avg_score, get_unique_files
+from search import get_total_files, query_top_files, query_top_files_specter, get_common_files_with_avg_score, get_unique_files, get_model_files_scores
 
 # Load environment variables
 load_dotenv()
@@ -79,14 +79,15 @@ def background_code_matching(self, repo, repo_id):
             req_str = ' '.join(reqs_list)
             query = req_str
             depth = 3 #get_total_files(repo_id)
-            results_ada = query_top_files(query, depth, repo_id)
-            results_specter = query_top_files_specter(query, depth, repo_id)
-            
-            common_files_with_avg_score = get_common_files_with_avg_score(results_ada, results_specter)
-            unique_model = get_unique_files(results_ada, results_specter)
-            result_dict = {
-                'common_files': common_files_with_avg_score,
-                'only_one_model': unique_model}
+            results_large_3 = query_top_files(query, depth, repo_id)
+            #results_specter = query_top_files_specter(query, depth, repo_id)
+            result_dict = get_model_files_scores(results_large_3)
+
+            # common_files_with_avg_score = get_common_files_with_avg_score(results_ada, results_specter)
+            # unique_model = get_unique_files(results_ada, results_specter)
+            # result_dict = {
+            #     'common_files': common_files_with_avg_score,
+            #     'only_one_model': unique_model}
             section_result[section] = result_dict
         
         # Save the section_result dictionary to a .json file

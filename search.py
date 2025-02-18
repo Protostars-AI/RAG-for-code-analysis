@@ -82,6 +82,9 @@ def get_common_files_with_avg_score(results_ada, results_specter):
     
     return common_files
 
+def get_model_files_scores(results):
+    model_dict = {os.path.basename(path): score for path, score in results}
+    return model_dict
 
 # create a function to get files retrived by only one model and not by the other
 def get_unique_files(results_ada, results_specter):
