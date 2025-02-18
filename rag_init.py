@@ -81,11 +81,12 @@ def background_code_matching(self, repo, repo_id):
             depth = 5 #get_total_files(repo_id)
             results_large_3 = query_top_files(query, depth, repo_id)
             #results_specter = query_top_files_specter(query, depth, repo_id)
-            result_dict = get_model_files_scores(results_large_3)
+            model_list = get_model_files_scores(results_large_3)
             
             #common_files_with_avg_score = get_common_files_with_avg_score(results_ada, results_specter)
             #unique_model = get_unique_files(results_ada, results_specter)
-            #result_dict = {'common_files': common_files_with_avg_score, 'only_one_model': unique_model}
+            unique_model = []
+            result_dict = {'common_files': model_list, 'only_one_model': unique_model}
             section_result[section] = result_dict
         
         # Save the section_result dictionary to a .json file

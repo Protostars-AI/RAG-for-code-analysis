@@ -84,6 +84,9 @@ def get_common_files_with_avg_score(results_ada, results_specter):
 
 def get_model_files_scores(results):
     model_dict = {os.path.basename(path): score for path, score in results}
+    model_list = []
+    for file_name in model_dict:
+        model_list.append((file_name, model_dict[file_name]))
     return model_dict
 
 
