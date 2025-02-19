@@ -78,7 +78,7 @@ def background_code_matching(self, repo, repo_id):
             reqs_list = list(owasp_df[owasp_df['section_name'] == section]['req_description'])
             req_str = ' '.join(reqs_list)
             query = req_str
-            depth = 5 #get_total_files(repo_id)
+            depth = 3 #get_total_files(repo_id)
             results_large_3 = query_top_files(query, depth, repo_id)
             #results_specter = query_top_files_specter(query, depth, repo_id)
             model_list = get_model_files_scores(results_large_3)
