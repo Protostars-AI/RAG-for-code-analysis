@@ -20,7 +20,7 @@ client = AzureOpenAI(
 )
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
 
-EMBEDDING_DIM = 3072
+EMBEDDING_DIM = 1536
 # Get query embeddings
 def get_embeddings_for_text(text):
     ret = client.embeddings.create(input=text, model=deployment_name)
