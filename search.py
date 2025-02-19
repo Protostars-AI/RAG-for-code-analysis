@@ -86,8 +86,8 @@ def get_model_files_scores(results):
     model_dict = {os.path.basename(path): score for path, score in results}
     model_list = []
     for file_name, score in model_dict.items():
-        model_list.append((file_name, score))
-    return model_dict
+        model_list.append([file_name, score])
+    return model_list
 
 # create a function to get files retrived by only one model and not by the other
 def get_unique_files(results_ada, results_specter):
