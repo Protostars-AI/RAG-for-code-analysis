@@ -87,7 +87,7 @@ def get_model_files_scores(results):
     model_list = []
     for file_name in model_dict:
         model_list.append((file_name, model_dict[file_name]))
-    return model_dict
+    return model_list
 
 
 # create a function to get files retrived by only one model and not by the other
