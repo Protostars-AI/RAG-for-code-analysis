@@ -13,7 +13,7 @@ load_dotenv()
 deployment_name=os.getenv("AZURE_DEPLOYMENT_NAME")
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-    api_version="2023-05-15",  # Check the latest supported version for your setup
+    api_version=os.getenv("AZURE_API_VERSION"),  # Check the latest supported version for your setup
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
 )
 model = SentenceTransformer('sentence-transformers/allenai-specter', device='cpu')
@@ -46,7 +46,7 @@ def build_embeddings(repo_files, name):
             print ("No of files processed: " + str(i))
 
 
-    t = AnnoyIndex(1536, 'angular')
+    t = AnnoyIndex(3072, 'angular')
     t2 = AnnoyIndex(768, 'angular')
     index_map = {}
     i = 0
