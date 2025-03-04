@@ -43,7 +43,7 @@ def get_total_files(name):
 
 def query_top_files_large_3(query, top_n, name):
     # Load annoy index and index map
-    t = AnnoyIndex(EMBEDDING_DIM_ADA, 'angular')  # Angular distance ranges between 0 radians to approximatly 3.1416 rads 
+    t = AnnoyIndex(EMBEDDING_DIM_LARGE_3, 'angular')  # Angular distance ranges between 0 radians to approximatly 3.1416 rads 
     t.load(name+'_large_3.ann')
     index_map = load_index_map(name)
     # Get embeddings for the query
@@ -57,7 +57,7 @@ def query_top_files_large_3(query, top_n, name):
 
 def query_top_files_ada(query, top_n, name):
     # Load annoy index and index map
-    t = AnnoyIndex(EMBEDDING_DIM, 'angular')  # Angular distance ranges between 0 radians to approximatly 3.1416 rads 
+    t = AnnoyIndex(EMBEDDING_DIM_ADA, 'angular')  # Angular distance ranges between 0 radians to approximatly 3.1416 rads 
     t.load(name+'_ada.ann')
     index_map = load_index_map(name)
     # Get embeddings for the query
